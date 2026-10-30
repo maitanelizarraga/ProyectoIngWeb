@@ -10,7 +10,7 @@
         <ul>
             {% for termino in terminos %}
                 <li><a href="{% url 'detalle_termino' termino.id %}">{{ termino.palabra }}</a>
-                <p>{{ termino.definicion|truncatewords.30}}</p>
+                <p>{{termino.definicion|truncatewords:30}}</p>
                 </li>
             {% endfor %}
         </ul>
