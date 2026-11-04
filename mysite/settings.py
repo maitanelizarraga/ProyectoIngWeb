@@ -10,6 +10,12 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.1/ref/settings/
 """
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv() # Esto lee tu archivo .env
+from pathlib import Path
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -76,12 +82,18 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres.TU_ID_DE_PROYECTO',
-        'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'HOST': 'aws-0-eu-west-1.pooler.supabase.com',
-        'PORT': '5432',
-        'OPTIONS': {'sslmode': 'require'},
+        'NAME': os.getenv('PGDATABASE'),
+        'USER': os.getenv('PGUSER'),
+        'PASSWORD': os.getenv('PGPASSWORD'),
+        'HOST': os.getenv('PGHOST'),
+        'PORT': os.getenv('PGPORT', '5432'),
+        'OPTIONS': {
+            'sslmode': 'require',
+            'channel_binding': 'require',
+            'prepare_threshold': None,  # 👈 MUY IMPORTANTE para el Pooler con psycopg3
+        },
+        'DISABLE_SERVER_SIDE_CURSORS': True,  # 👈 MUY IMPORTANTE para el Pooler
+        'CONN_MAX_AGE': 0,                    # 👈 Para evitar conexiones colgadas
     }
 }
 
