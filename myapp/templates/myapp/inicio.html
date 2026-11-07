@@ -1,59 +1,12 @@
-{% load static %}<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Palabras y textos jurídicos explicados en Lectura Fácil y lenguaje claro.">
-<title>Inicio · Derecho a entender · Lectura Fácil</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;display=swap">
-<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
-</head>
-<body>
-<a class="saltar" href="#contenido">Saltar al contenido</a>
+{% extends "myapp/base.html" %}
+{% load static %}
 
-<!--barra-->
-<div class="barra-acc">
-  <div class="contenedor barra-acc__fila">
-    <p class="barra-acc__texto">Textos jurídicos en Lectura Fácil</p>
-    <div class="barra-acc__grupo">
-      <div class="idioma" role="group" aria-label="Idioma">
-        <a href="/" aria-current="true">Castellano</a>
-        <a href="#" lang="eu" hreflang="eu">Euskara</a>
-      </div>
-    </div>
-  </div>
-</div>
+{% block title %}Inicio · Derecho a entender · Lectura Fácil{% endblock %}
 
-<!--Cabecera-->
-<header class="cabecera">
-  <div class="contenedor cabecera__fila">
-    <a class="marca" href="/">
-      <span class="marca__icono">
-        <img src="{% static 'img/logo-balanza.svg' %}" alt="" width="30" height="30">
-      </span>
-      <span class="marca__texto">
-        <span class="marca__nombre">Derecho a entender</span>
-        <span class="marca__sub">Lectura Fácil · Universidad de Deusto</span>
-      </span>
-    </a>
-    <nav aria-label="Menú principal">
-      <ul class="menu">
-        <li><a href="/" aria-current="page">Inicio</a></li>
-        <li><a href="/diccionario/">Diccionario</a></li>
-        <li><a href="/ramas/">Ramas del Derecho</a></li>
-        <li><a href="/galeria/">Galería</a></li>
-        <li><a href="/quienes-somos/">Quiénes somos</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+{% block content %}
 
-<main id="contenido">
-
-  <!--Portada con buscador-->
-  <section class="portada">
+<!--Portada con buscador-->
+<section class="portada">
     <div class="contenedor portada__fila">
       <div class="portada__texto">
         <h1 class="portada__titulo">Derecho a entender</h1>
@@ -208,28 +161,4 @@
       <a class="boton boton-primario boton-grande" href="/diccionario/#nueva">Sugerir una palabra</a>
     </div>
   </section>
-</main>
-
-<!--Footer-->
-<footer class="footer">
-  <div class="contenedor footer__grid">
-    <div class="footer__col">
-      <p class="footer__nombre">Derecho a entender</p>
-      <p>Facultad de Derecho<br>Universidad de Deusto · San Sebastián</p>
-    </div>
-    <nav class="footer__col" aria-label="Secciones">
-      <p class="footer__titulo">Secciones</p>
-      <a href="/diccionario/">Diccionario</a>
-      <a href="/ramas/">Ramas del Derecho</a>
-      <a href="/galeria/">Galería</a>
-    </nav>
-    <div class="footer__col">
-      <p class="footer__titulo">Ayuda</p>
-      <a href="/quienes-somos/">Contacto</a>
-      <a href="/admin/">Acceso para el equipo</a>
-    </div>
-  </div>
-</footer>
-
-</body>
-</html>
+{% endblock %}

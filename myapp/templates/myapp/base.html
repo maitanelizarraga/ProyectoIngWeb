@@ -13,6 +13,9 @@
     
     <!-- CSS Principal -->
     <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+
+    <!-- para insertar CSS específico para cada página-->
+    {% block css_especifico %}{% endblock %}
 </head>
 <body>
     <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -44,11 +47,11 @@
             </a>
             <nav aria-label="Menú principal">
                 <ul class="menu">
-                    <li><a href="/" aria-current="page">Inicio</a></li>
-                    <li><a href="/diccionario/">Diccionario</a></li>
-                    <li><a href="/ramas/">Ramas del Derecho</a></li>
-                    <li><a href="/galeria/">Galería</a></li>
-                    <li><a href="/quienes-somos/">Quiénes somos</a></li>
+                    <li><a href="/inicio/" {% if request.resolver_match.url_name == 'inicio' %}aria-current="page"{% endif %} >Inicio</a></li>
+                    <li><a href="{% url 'diccionario' %}" {% if request.resolver_match.url_name == 'diccionario' %}aria-current="page"{% endif %}>Diccionario</a></li>
+                    <li><a href="/ramas/" {% if request.path == '/ramas/' %}aria-current="page"{% endif %}>Ramas del Derecho</a></li>
+                    <li><a href="/galeria/" {% if request.path == '/galeria/' %}aria-current="page"{% endif %}>Galería</a></li>
+                    <li><a href="/quienes-somos/" {% if request.path == '/quienes-somos/' %}aria-current="page"{% endif %}>Quiénes somos</a></li>
                 </ul>
             </nav>
         </div>
