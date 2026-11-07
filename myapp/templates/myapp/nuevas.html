@@ -1,0 +1,21 @@
+{%extends "myapp/base.html"%}
+{% block title %} Inicio - Derecho a Entender{% endblock %}
+{% block content %}
+
+    <h1>Derecho a Entender</h1>
+
+    <section>
+        <h2> Últimas palabras añadidas al diccionario</h2>
+        {% if ultimos_terminos %}
+            <ul>
+                {% for termino in ultimos_terminos %}
+                    <li><a href="{% url 'detalle_termino' termino.id %}">{{ termino.palabra }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No hay terminos en el diccionario.</p>
+        {% endif %}
+
+        <p><a href="{% url 'diccionario' %}" > Ver diccionario completo </a></p>
+    </section>
+{% endblock %}

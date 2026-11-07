@@ -16,3 +16,7 @@ def diccionario(request):
 def detalle_termino(request, id_termino):
     termino = get_object_or_404(Termino, pk=id_termino)
     return render(request, 'myapp/detalle_termino.html', {'termino': termino})
+
+# views.py
+def portada(request):
+    return render(request, 'myapp/portada.html')

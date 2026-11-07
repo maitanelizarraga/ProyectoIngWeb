@@ -1,21 +1,33 @@
-{%extends "myapp/base.html"%}
-{% block title %} Inicio - Derecho a Entender{% endblock %}
+{% extends "myapp/base.html" %}
+{% load static %}
+
+{% block title %}Portada - Derecho a Entender{% endblock %}
+
 {% block content %}
 
-    <h1>Derecho a Entender</h1>
+    <!-- Sección de introducción (equivalente al article del original) -->
+    <article id="prom_init" class="contenedor seccion">
+        <h2>BIENVENIDOS A DERECHO A ENTENDER</h2>
+        <p class="secundario">Explicamos las palabras de la ley con frases cortas y claras.</p>
+    </article>
 
-    <section>
-        <h2> Últimas palabras añadidas al diccionario</h2>
-        {% if ultimos_terminos %}
-            <ul>
-                {% for termino in ultimos_terminos %}
-                    <li><a href="{% url 'detalle_termino' termino.id %}">{{ termino.palabra }}</a></li>
-                {% endfor %}
-            </ul>
-        {% else %}
-            <p>No hay terminos en el diccionario.</p>
-        {% endif %}
-
-        <p><a href="{% url 'diccionario' %}" > Ver diccionario completo </a></p>
+    <!-- Sección de Historia (equivalente a la section con class="historia") -->
+    <section class="historia contenedor seccion">
+        <h1>NOSOTROS Y NOSOTRAS</h1>
+        
+        <div class="texto_infor">
+            
+        </div>
     </section>
+
+    <!-- Sección de Redes Sociales -->
+    <section id="rrss" class="contenedor seccion">
+        <h1>REDES SOCIALES</h1>
+        <ul class="rrss__lista">
+            <li><a href="https://www.instagram.com/" >Instagram</a></li>
+            <li><a href="https://www.tiktok.com/es/" >Tik Tok</a></li> 
+            <li><a href="https://www.youtube.com/" >YouTube</a></li>
+        </ul>
+    </section>
+
 {% endblock %}
