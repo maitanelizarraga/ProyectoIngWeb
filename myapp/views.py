@@ -1,12 +1,15 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Termino
+from .models import RamaDerecho, Termino
 from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    ultimos_terminos = Termino.objects.order_by('-fecha_creacion')[:5]
-    context = {'ultimos_terminos': ultimos_terminos}   
-    return render(request, 'myapp/index.html', context)
+    context = {
+        'ramas_publico': RamaDerecho.objects.filter(tipo='publico'),
+        'ramas_privado': RamaDerecho.objects.filter(tipo='privado'),
+        'palabras': Termino.objects.all()[:5],
+    }
+    return render(request, 'inicio.html', context)
 
 def diccionario(request):
     terminos = Termino.objects.all()
