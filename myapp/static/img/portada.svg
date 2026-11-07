@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" role="img" aria-labelledby="titulo">
+  <title id="titulo">Dos personas leen juntas un documento</title>
+  <!-- Fondo -->
+  <rect width="480" height="400" rx="28" fill="#FFFFFF"/>
+  <circle cx="240" cy="210" r="150" fill="#DCE7F8"/>
+  <circle cx="400" cy="70" r="26" fill="#FFD24D"/>
+  <circle cx="70" cy="330" r="14" fill="#FDF0E1"/>
+
+  <!-- Persona izquierda -->
+  <path d="M70 400c0-70 30-118 82-118s82 48 82 118z" fill="#1E4FA3"/>
+  <rect x="138" y="240" width="28" height="40" rx="12" fill="#C98B62"/>
+  <circle cx="152" cy="208" r="40" fill="#C98B62"/>
+  <path d="M112 204c0-30 18-48 42-48s40 18 40 40c-14 0-30-8-38-20-6 14-24 26-44 28z" fill="#14213D"/>
+
+  <!-- Persona derecha -->
+  <path d="M250 400c0-70 30-118 82-118s82 48 82 118z" fill="#8A3F06"/>
+  <rect x="318" y="240" width="28" height="40" rx="12" fill="#F1C7A3"/>
+  <circle cx="332" cy="208" r="40" fill="#F1C7A3"/>
+  <path d="M290 214c-4-38 16-62 44-62 26 0 44 22 40 54-10-14-22-24-40-26-14 10-28 22-44 34z" fill="#5B3A1E"/>
+
+  <!-- Documento -->
+  <g transform="rotate(-4 242 300)">
+    <rect x="172" y="236" width="140" height="150" rx="10" fill="#FFFFFF" stroke="#14213D" stroke-width="4"/>
+    <rect x="192" y="258" width="64" height="10" rx="5" fill="#1E4FA3"/>
+    <rect x="192" y="282" width="100" height="8" rx="4" fill="#9AA8BC"/>
+    <rect x="192" y="300" width="90" height="8" rx="4" fill="#9AA8BC"/>
+    <rect x="192" y="318" width="100" height="8" rx="4" fill="#9AA8BC"/>
+    <rect x="192" y="336" width="70" height="8" rx="4" fill="#9AA8BC"/>
+    <rect x="186" y="354" width="112" height="20" rx="6" fill="#FFF6D6"/>
+  </g>
+
+  <!-- Manos -->
+  <circle cx="180" cy="318" r="14" fill="#C98B62"/>
+  <circle cx="304" cy="310" r="14" fill="#F1C7A3"/>
+
+  <!-- Balanza (símbolo del Derecho) -->
+  <g fill="none" stroke="#14213D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M242 52v70M212 66h60M212 66l-16 34a16 16 0 0 0 32 0zM272 66l-16 34a16 16 0 0 0 32 0zM226 122h32"/>
+  </g>
+</svg>
