@@ -1,26 +1,90 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{% block title %}Derecho a Entender{% endblock %}</title>
-    </head>
-    <body>
-        <header>
-            <h1>{% block header %}Derecho a Entender{% endblock %}</h1>
-            <nav>
-                <a href="{% url 'index' %}">Inicio</a>
-                <a href="{% url 'diccionario' %}">Diccionario</a>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Derecho a Entender{% endblock %}</title>
+    
+    <!-- Fuente de Lectura Fácil -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;display=swap">
+    
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+
+    <!-- para insertar CSS específico para cada página-->
+    {% block css_especifico %}{% endblock %}
+</head>
+<body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+    <!--barra-->
+    <div class="barra-acc">
+        <div class="contenedor barra-acc__fila">
+            <p class="barra-acc__texto">Textos jurídicos en Lectura Fácil</p>
+            <div class="barra-acc__grupo">
+                <div class="idioma" role="group" aria-label="Idioma">
+                    <a href="/" aria-current="true">Castellano</a>
+                    <a href="#" lang="eu" hreflang="eu">Euskara</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Cabecera-->
+    <header class="cabecera">
+        <div class="contenedor cabecera__fila">
+            <a class="marca" href="/">
+                <span class="marca__icono">
+                    <img src="{% static 'img/logo-balanza.svg' %}" alt="" width="30" height="30">
+                </span>
+                <span class="marca__texto">
+                    <span class="marca__nombre">Derecho a entender</span>
+                    <span class="marca__sub">Lectura Fácil · Universidad de Deusto</span>
+                </span>
+            </a>
+            <nav aria-label="Menú principal">
+                <ul class="menu">
+                    <li><a href="/inicio/" {% if request.resolver_match.url_name == 'inicio' %}aria-current="page"{% endif %} >Inicio</a></li>
+                    <li><a href="{% url 'diccionario' %}" {% if request.resolver_match.url_name == 'diccionario' %}aria-current="page"{% endif %}>Diccionario</a></li>
+                    <li><a href="/ramas/" {% if request.path == '/ramas/' %}aria-current="page"{% endif %}>Ramas del Derecho</a></li>
+                    <li><a href="/galeria/" {% if request.path == '/galeria/' %}aria-current="page"{% endif %}>Galería</a></li>
+                    <li><a href="/quienes-somos/" {% if request.path == '/quienes-somos/' %}aria-current="page"{% endif %}>Quiénes somos</a></li>
+                </ul>
             </nav>
-        </header>
+        </div>
+    </header>
 
-        <main>
-            {% block content %}{% endblock %}
-        </main>
+    <!-- AQUÍ VA EL CONTENIDO DE LAS OTRAS PÁGINAS (index, diccionario, etc) -->
+    <main id="contenido">
+        {% block content %}
+        {% endblock %}
+    </main>
 
-        <footer>
-            <p>  Trabajo conjunto entre estudiantes de Derecho de la Universidad de Deusto de San Sebastián y Lectura Fácil Euskadi-Irakurketa Erraza.</p>
-        </footer>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="contenedor footer__grid">
+            <div class="footer__col">
+                <p class="footer__nombre">Derecho a entender</p>
+                <p>Facultad de Derecho<br>Universidad de Deusto · San Sebastián</p>
+            </div>
+            <nav class="footer__col" aria-label="Secciones">
+                <p class="footer__titulo">Secciones</p>
+                <a href="/diccionario/">Diccionario</a>
+                <a href="/ramas/">Ramas del Derecho</a>
+                <a href="/galeria/">Galería</a>
+                <a href="/admin/">Acceso para el equipo</a>
+            </nav>
+            <div class="footer__col">
+                <p class="footer__titulo">Redes Sociales</p>
+                <li><a href="https://www.instagram.com/udeusto/" >Instagram</a></li>
+                <li><a href="https://x.com/deusto/status/1466413085372080134" >X</a></li> 
+                <li><a href="https://www.lecturafacil.net/es/news/estudiantes-de-derecho-de-deusto-crean-una-guia-en/" >Lectura Facil</a></li>
+            </div>
+        </div>
+    </footer>
 
-    </body>
+</body>
 </html>
