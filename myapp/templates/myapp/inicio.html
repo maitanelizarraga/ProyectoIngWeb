@@ -21,7 +21,7 @@
         {% if palabras %}
         <div class="chips">
           <span class="chips__titulo">Algunas palabras:</span>
-          {% for t in palabras %}<a class="chip" href="/diccionario/?q={{ t.palabra|urlencode }}">{{ t.palabra }}</a>{% endfor %}
+          {% for t in palabras %}<a class="chip" href="/diccionario/?q={{ t.termino|urlencode }}">{{ t.termino }}</a>{% endfor %}
         </div>
         {% endif %}
       </div>

@@ -90,7 +90,7 @@ DATABASES = {
         'OPTIONS': {
             'sslmode': 'require',
             'channel_binding': 'require',
-            'prepare_threshold': None,  # 👈 MUY IMPORTANTE para el Pooler con psycopg3
+            'prepare_threshold': None,  
         },
         'DISABLE_SERVER_SIDE_CURSORS': True,  # 👈 MUY IMPORTANTE para el Pooler
         'CONN_MAX_AGE': 0,                    # 👈 Para evitar conexiones colgadas
