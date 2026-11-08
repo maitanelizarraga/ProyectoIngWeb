@@ -1,0 +1,236 @@
+{% load static %}<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Palabras y textos jurídicos explicados en Lectura Fácil y lenguaje claro.">
+<title>Inicio · Derecho a entender · Lectura Fácil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;display=swap">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<!--barra-->
+<div class="barra-acc">
+  <div class="contenedor barra-acc__fila">
+    <p class="barra-acc__texto">Textos jurídicos en Lectura Fácil</p>
+    <div class="barra-acc__grupo">
+      <div class="idioma" role="group" aria-label="Idioma">
+        <a href="/" aria-current="true">Castellano</a>
+        <a href="#" lang="eu" hreflang="eu">Euskara</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Cabecera-->
+<header class="cabecera">
+  <div class="contenedor cabecera__fila">
+    <a class="marca" href="/">
+      <span class="marca__icono">
+        <img src="{% static 'img/logo-balanza.svg' %}" alt="" width="30" height="30">
+      </span>
+      <span class="marca__texto">
+        <span class="marca__nombre">Derecho a entender</span>
+        <span class="marca__sub">Lectura Fácil · Universidad de Deusto</span>
+      </span>
+    </a>
+    <nav aria-label="Menú principal">
+      <ul class="menu">
+        <li><a href="/" aria-current="page">Inicio</a></li>
+        <li><a href="/diccionario/">Diccionario</a></li>
+        <!-- <li><a href="{% url 'diccionario' %}">Dict</li> -->
+        <li><a href="/ramas/">Ramas del Derecho</a></li>
+        <li><a href="/galeria/">Galería</a></li>
+        <li><a href="/quienes-somos/">Quiénes somos</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <!--Portada con buscador-->
+  <section class="portada">
+    <div class="contenedor portada__fila">
+      <div class="portada__texto">
+        <h1 class="portada__titulo">Derecho a entender</h1>
+        <p class="portada__lema">Explicamos las palabras de la ley<br>con frases cortas y claras.<br>Para que todas las personas las entiendan.</p>
+        <form class="buscador" role="search" action="/diccionario/" method="get">
+          <label for="buscar-portada">¿Qué palabra no entiendes?</label>
+          <div class="buscador__fila">
+            <input id="buscar-portada" name="q" type="search" placeholder="Por ejemplo: demanda">
+            <button type="submit" class="boton boton-primario boton-grande">Buscar</button>
+          </div>
+        </form>
+        {% if palabras %}
+        <div class="chips">
+          <span class="chips__titulo">Algunas palabras:</span>
+          {% for t in palabras %}<a class="chip" href="/diccionario/?q={{ t.palabra|urlencode }}">{{ t.palabra }}</a>{% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      <img class="portada__imagen" src="{% static 'img/portada.svg' %}" alt="Dos personas leen juntas un documento" width="480" height="400">
+    </div>
+  </section>
+
+  <!--Qué vas a encontrar-->
+  <section class="contenedor seccion">
+    <div class="seccion__cabeza">
+      <h2>¿Qué vas a encontrar en esta página?</h2>
+      <p class="secundario">Tres herramientas para entender el Derecho.<br>Elige por dónde quieres empezar.</p>
+    </div>
+    <div class="grid grid-3">
+      <a class="tarjeta" href="/diccionario/">
+        <span class="tarjeta__icono tarjeta__icono-amarillo"><img src="{% static 'img/icono-diccionario.svg' %}" alt="" width="34" height="34"></span>
+        <span class="tarjeta__titulo">Diccionario</span>
+        <span>Palabras legales difíciles<br>explicadas de forma fácil.</span>
+        <span class="tarjeta__enlace">Ir al diccionario →</span>
+      </a>
+      <a class="tarjeta" href="/ramas/">
+        <span class="tarjeta__icono tarjeta__icono-azul"><img src="{% static 'img/icono-ramas.svg' %}" alt="" width="34" height="34"></span>
+        <span class="tarjeta__titulo">Ramas del Derecho</span>
+        <span>El Derecho tiene partes distintas.<br>Te contamos para qué sirve cada una.</span>
+        <span class="tarjeta__enlace">Ver las ramas →</span>
+      </a>
+      <a class="tarjeta" href="/galeria/">
+        <span class="tarjeta__icono tarjeta__icono-naranja"><img src="{% static 'img/icono-galeria.svg' %}" alt="" width="34" height="34"></span>
+        <span class="tarjeta__titulo">Galería</span>
+        <span>Vídeos e infografías<br>para aprender con imágenes.</span>
+        <span class="tarjeta__enlace">Ver la galería →</span>
+      </a>
+    </div>
+  </section>
+
+  <!--Ramas del Derecho-->
+  <section class="franja">
+    <div class="contenedor seccion">
+      <div class="seccion__cabeza">
+        <h2>Ramas del Derecho</h2>
+        <p class="secundario">En Derecho hay materias diferentes.<br>Se dividen en dos grandes tipos:<br>el Derecho público y el Derecho privado.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="bloque-tipo bloque-tipo-publico">
+          <p class="bloque-tipo__antetitulo">El Estado y las personas</p>
+          <h3>Derecho público</h3>
+          <p>Regula las relaciones entre el Estado<br>y las personas.</p>
+        </div>
+        <div class="bloque-tipo bloque-tipo-privado">
+          <p class="bloque-tipo__antetitulo">Entre personas</p>
+          <h3>Derecho privado</h3>
+          <p>Regula las relaciones<br>entre dos o más personas.</p>
+        </div>
+      </div>
+
+      <h3 class="subtitulo-marca subtitulo-marca-publico">Ramas del Derecho público</h3>
+      <div class="grid grid-fichas">
+        {% for rama in ramas_publico %}
+        <article class="ficha">
+          <h4 class="ficha__titulo">{{ rama.nombre }}</h4>
+          <p class="ficha__texto">{{ rama.descripcion|linebreaksbr }}</p>
+          {% if rama.ejemplo %}<p class="ejemplo"><strong>Ejemplo:</strong> {{ rama.ejemplo }}</p>{% endif %}
+        </article>
+        {% empty %}
+        <p class="secundario">Todavía no hay ramas guardadas.</p>
+        {% endfor %}
+      </div>
+
+      <h3 class="subtitulo-marca subtitulo-marca-privado">Ramas del Derecho privado</h3>
+      <div class="grid grid-fichas">
+        {% for rama in ramas_privado %}
+        <article class="ficha">
+          <h4 class="ficha__titulo">{{ rama.nombre }}</h4>
+          <p class="ficha__texto">{{ rama.descripcion|linebreaksbr }}</p>
+          {% if rama.ejemplo %}<p class="ejemplo"><strong>Ejemplo:</strong> {{ rama.ejemplo }}</p>{% endif %}
+        </article>
+        {% empty %}
+        <p class="secundario">Todavía no hay ramas guardadas.</p>
+        {% endfor %}
+      </div>
+
+      <div class="decalogo">
+        <div class="hueco decalogo__miniatura">[Miniatura del decálogo]</div>
+        <div class="decalogo__texto">
+          <h3>Decálogo de las ramas del Derecho</h3>
+          <p>Un resumen con imágenes<br>de todas las ramas del Derecho.</p>
+          <a class="boton boton-oscuro" href="/galeria/#decalogo">Ver el decálogo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Galería (avance)-->
+  <section class="contenedor seccion">
+    <div class="seccion__cabeza seccion__cabeza-fila">
+      <div>
+        <h2>Galería de contenidos</h2>
+        <p class="secundario">Vídeos e infografías para entender el Derecho.</p>
+      </div>
+      <a class="boton boton-secundario" href="/galeria/">Ver toda la galería</a>
+    </div>
+    <div class="grid grid-3">
+      <article class="recurso">
+        <div class="recurso__imagen recurso__imagen-video">
+          <span class="etiqueta-oscura">Vídeo · 0:29</span>
+          <span class="recurso__play"><img src="{% static 'img/play-azul.svg' %}" alt="" width="26" height="26"></span>
+        </div>
+        <h3 class="recurso__titulo">¿Para qué sirve el Derecho público?</h3>
+        <p class="recurso__texto">Vídeo corto con las ramas del Derecho público.</p>
+      </article>
+      <article class="recurso">
+        <div class="recurso__imagen recurso__imagen-video recurso__imagen-privado">
+          <span class="etiqueta-oscura">Vídeo · 0:17</span>
+          <span class="recurso__play"><img src="{% static 'img/play-naranja.svg' %}" alt="" width="26" height="26"></span>
+        </div>
+        <h3 class="recurso__titulo">¿Para qué sirve el Derecho privado?</h3>
+        <p class="recurso__texto">Vídeo corto con las ramas del Derecho privado.</p>
+      </article>
+      <article class="recurso">
+        <div class="recurso__imagen recurso__imagen-infografia">
+          <span class="etiqueta-oscura">Infografía</span>
+          <img src="{% static 'img/icono-infografia.svg' %}" alt="" width="48" height="48">
+        </div>
+        <h3 class="recurso__titulo">Decálogo de las ramas del Derecho</h3>
+        <p class="recurso__texto">Infografía que resume todas las ramas con imágenes.</p>
+      </article>
+    </div>
+  </section>
+
+  <!--Llamada a la acción-->
+  <section class="contenedor seccion">
+    <div class="llamada">
+      <div>
+        <h2>¿Falta alguna palabra?</h2>
+        <p>Dinos qué palabra no entiendes.<br>La explicaremos en el diccionario.</p>
+      </div>
+      <a class="boton boton-primario boton-grande" href="/diccionario/#nueva">Sugerir una palabra</a>
+    </div>
+  </section>
+</main>
+
+<!--Footer-->
+<footer class="footer">
+  <div class="contenedor footer__grid">
+    <div class="footer__col">
+      <p class="footer__nombre">Derecho a entender</p>
+      <p>Facultad de Derecho<br>Universidad de Deusto · San Sebastián</p>
+    </div>
+    <nav class="footer__col" aria-label="Secciones">
+      <p class="footer__titulo">Secciones</p>
+      <a href="/diccionario/">Diccionario</a>
+      <a href="/ramas/">Ramas del Derecho</a>
+      <a href="/galeria/">Galería</a>
+    </nav>
+    <div class="footer__col">
+      <p class="footer__titulo">Ayuda</p>
+      <a href="/quienes-somos/">Contacto</a>
+      <a href="/admin/">Acceso para el equipo</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

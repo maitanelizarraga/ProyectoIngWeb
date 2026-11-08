@@ -1,0 +1,22 @@
+{% extends "myapp/base.html" %}
+{%block title %} {{añadir.palabra}} {% endblock %}
+{% block content %}
+
+    <h1>{{añadir.palabra}}</h1>
+
+
+    {% if termino.rama_derecho %}
+        <p>Rama del derecho: {{termino.rama_derecho.nombre}}</p>
+    {% endif %}
+
+    <h2> ¿Qué significa?</h2>
+    <p>{{termino.definicion}}</p>
+
+    {% if termino.ejemplo %}
+        <h2>Ejemplo</h2>
+        <p>{{termino.ejemplo}}</p>
+    {% endif %}
+
+    <p><a href="{% url 'diccionario' %}">Volver al diccionario</a></p>
+
+{% endblock %}
