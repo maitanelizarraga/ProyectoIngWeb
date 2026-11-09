@@ -7,11 +7,22 @@
 
 {% block title %}Diccionario - Derecho jurídico{% endblock %}
 {% block content %}
-    <section id="motivacion"class="contenedor motivacion">
+    <section id="motivacion" class="contenedor motivacion">
         <h1>Diccionario jurídico en lenguaje claro</h1>
         <a href="{% url 'addPalabra' %}">Añadir Palabra</a>
 
         <p>Explicaciones de términos legales</p>
+
+        <form action="{% url 'diccionario' %}" method="get">
+            <label for="buscar">Buscar término:</label>
+            <input
+                type="search"
+                id="buscar"
+                name="q"
+                value="{{ consulta }}"
+                placeholder="Escribe una palabra">
+            <button type="submit">Buscar</button>
+        </form>
 
         {% if grupos %}
             {% for grupo in grupos %}
@@ -26,7 +37,11 @@
                 </ul>
             {% endfor %}
         {% else %}
-            <p>No hay términos en el diccionario.</p>
+            {% if consulta %}
+                <p>No se encontraron resultados para "{{ consulta }}".</p>
+            {% else %}
+                <p>No hay términos en el diccionario.</p>
+            {% endif %}
         {% endif %}
     </section>
 

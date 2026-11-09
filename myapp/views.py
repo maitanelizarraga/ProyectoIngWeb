@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from .models import TerminoGeneral, Subrama
 from django.http import HttpResponse
+from django.db.models import Q
 
 
 def index(request):
@@ -10,7 +11,18 @@ def index(request):
 
 
 def diccionario(request):
-    terminos = list(TerminoGeneral.objects.all())
+    consulta = request.GET.get('q', '').strip()
+
+    terminos = TerminoGeneral.objects.all()
+
+    # Buscar por término o definición
+    if consulta:
+        terminos = terminos.filter(
+            Q(termino__icontains=consulta) |
+            Q(definicion__icontains=consulta)
+        )
+
+    terminos = list(terminos)
 
     # Ordenar alfabéticamente
     terminos.sort(key=lambda t: t.termino.casefold())
@@ -28,7 +40,10 @@ def diccionario(request):
 
         grupos[-1]['terminos'].append(termino)
 
-    context = {'grupos': grupos}
+    context = {
+        'grupos': grupos,
+        'consulta': consulta
+    }
 
     return render(request, 'myapp/diccionario.html', context)
 
@@ -78,7 +93,24 @@ def galeria(request):
     return render(request, 'myapp/galeria.html')
 
 def ramasDerecho(request):
-    return render(request, 'myapp/ramasDerecho.html')
+    ramas_publico = Subrama.objects.filter(
+        rama__nombre='Derecho Público')
+
+    ramas_privado = Subrama.objects.filter(
+        rama__nombre='Derecho Privado')
+
+    context = {
+        'ramas_publico': ramas_publico,
+        'ramas_privado': ramas_privado,
+    }
+
+    return render(request, 'myapp/ramasDerecho.html', context)
 
 def nuevas(request):
-    return render(request, 'myapp/nuevas.html')
+    ultimos_terminos = TerminoGeneral.objects.order_by('-created_at')[:5]
+
+    context = {
+        'ultimos_terminos': ultimos_terminos
+    }
+
+    return render(request, 'myapp/nuevas.html', context)
