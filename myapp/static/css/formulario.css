@@ -1,69 +1,156 @@
-fieldset{
-    border: 1px solid black;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
+
+/* Página del formulario */
+
+.pagina-formulario {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Título */
+
+.titulo-formulario {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Texto de campos obligatorios */
+
+.texto-obligatorio {
+    text-align: center;
+    color: #3D4A5C;
+    margin-bottom: 25px;
 }
 
 /* Formulario */
+
 .formulario {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  padding: 2rem;
-  border: 2px solid #1E4FA3;
-  border-radius: 1.25rem;
-  background: #F6F8FB;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border: 2px solid #1E4FA3;
+    border-radius: 15px;
+    background-color: #F6F8FB;
 }
+
+/* Formulario */
+
+.formulario fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+}
+
+/* Campos */
 
 .campo {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
 }
 
-.campo label { 
-  font-weight: 700; 
+.campo:last-child {
+    margin-bottom: 0;
 }
 
-.campo__ayuda { 
-  color: #3D4A5C; 
-  font-size: 1.05rem; 
+/* Etiquetas */
+
+.campo label {
+    font-weight: 700;
+    color: #14213D;
 }
+
+/* Texto de ayuda */
+
+.campo__ayuda {
+    color: #3D4A5C;
+    font-size: 1rem;
+}
+
+/* Cajas de texto y selección */
 
 .campo input,
 .campo select,
 .campo textarea {
-  min-height: 3.25rem;
-  padding: 0.6rem 1rem;
-  border: 2px solid #14213D;
-  border-radius: 0.6rem;
-  background: #FFFFFF;
-  color: #14213D;
-  font: inherit;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 15px;
+    border: 2px solid #D5DCE6;
+    border-radius: 8px;
+    background-color: white;
+    color: #14213D;
+    font-family: inherit;
+    font-size: 1.1rem;
 }
 
-.campo textarea { 
-  resize: vertical; 
+/* Al seleccionar un campo */
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    outline: none;
+    border-color: #1E4FA3;
 }
 
-.error {
-  color: #A61B1B;
-  font-size: 1.05rem;
-  font-weight: 700;
+/* Área de texto */
+
+.campo textarea {
+    resize: vertical;
 }
 
-.error ul { 
-  margin: 0; 
-  padding-left: 1.25rem; 
+/* Botón de guardar */
+
+.formulario button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1E4FA3;
+    color: white;
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
 }
 
-.formulario__botones {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
+.formulario button:hover {
+    background-color: #14366F;
 }
 
-@media (max-width: 40rem) {
-  .formulario { padding: 1.25rem; }
+/* Volver al diccionario */
+
+.volver-contenedor {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.volver-diccionario {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #1E4FA3;
+    border-radius: 8px;
+    background-color: white;
+    color: #1E4FA3;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.volver-diccionario:hover {
+    background-color: #EEF3FB;
+    color: #14213D;
+}
+
+/* Adaptación a móviles */
+
+@media (max-width: 600px) {
+    .pagina-formulario {
+        padding: 0 15px;
+    }
+
+    .formulario {
+        padding: 20px;
+    }
 }

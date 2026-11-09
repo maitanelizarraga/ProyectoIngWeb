@@ -1,6 +1,5 @@
 
 {% extends "myapp/base.html" %}
-
 {% load static %}
 
 {% block css_especifico %}
@@ -11,41 +10,56 @@
 
 {% block content %}
 
-<h1>Añadir palabra</h1>
+<div class="pagina-formulario">
 
-<p>Los campos con * son obligatorios</p>
+    <h1 class="titulo-formulario">Añadir palabra</h1>
 
-<form method="post">
-    {% csrf_token %}
+    <p class="texto-obligatorio">Los campos con * son obligatorios</p>
 
-    <fieldset>
-        <p>Palabra *</p>
-        <input type="text" name="palabra" required>
+    <form method="post" class="formulario">
+        {% csrf_token %}
 
-        <p>Rama del Derecho *</p>
-        <select name="rama" required>
-            <option value="" selected disabled>------------</option>
-            <option value="Civil">Civil</option>
-            <option value="Penal">Penal</option>
-            <option value="Laboral">Laboral</option>
-            <option value="Mercantil">Mercantil</option>
-            <option value="Administrativo">Administrativo</option>
-            <option value="Constitucional">Constitucional</option>
-            <option value="Internacional">Internacional</option>
-        </select>
+        <fieldset>
+            <div class="campo">
+                <label for="palabra">Palabra *</label>
+                <input type="text" id="palabra" name="palabra" required>
+            </div>
 
-        <p>Explicación fácil *</p>
-        <p>Usa un máximo de 300 caracteres.</p>
-        <textarea name="descripcion" required maxlength="300" rows="10"></textarea>
+            <div class="campo">
+                <label for="rama">Rama del Derecho *</label>
+                <select id="rama" name="rama" required>
+                    <option value="" selected disabled>------------</option>
+                    <option value="Civil">Civil</option>
+                    <option value="Penal">Penal</option>
+                    <option value="Laboral">Laboral</option>
+                    <option value="Mercantil">Mercantil</option>
+                    <option value="Administrativo">Administrativo</option>
+                    <option value="Constitucional">Constitucional</option>
+                    <option value="Internacional">Internacional</option>
+                </select>
+            </div>
 
-        <p>Ejemplo</p>
-        <textarea name="ejemplo" rows="5"></textarea>
-    </fieldset>
+            <div class="campo">
+                <label for="descripcion">Explicación fácil *</label>
+                <p class="campo__ayuda">Usa un máximo de 300 caracteres.</p>
+                <textarea id="descripcion" name="descripcion" required maxlength="300" rows="5"></textarea>
+            </div>
 
-    <button type="submit">Guardar palabra</button>
-</form>
+            <div class="campo">
+                <label for="ejemplo">Ejemplo</label>
+                <textarea id="ejemplo" name="ejemplo" rows="3"></textarea>
+            </div>
+        </fieldset>
 
-<p><a href="{% url 'diccionario' %}">Volver al diccionario</a></p>
+        <button type="submit">Guardar palabra</button>
+    </form>
+
+    <p class="volver-contenedor">
+        <a class="volver-diccionario" href="{% url 'diccionario' %}">
+            ← Volver al diccionario
+        </a>
+    </p>
+
+</div>
 
 {% endblock %}
-```
