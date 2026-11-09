@@ -52,3 +52,23 @@ def inicio(request):
         'palabras': palabras,
     }
     return render(request, 'myapp/inicio.html', context)
+
+def addPalabra(request):
+    if request.method == 'POST':
+        termino = request.POST.get('termino')
+        definicion = request.POST.get('definicion')
+        rama_id = request.POST.get('rama')
+        subrama_id = request.POST.get('subrama')
+
+        # Crear un nuevo objeto TerminoGeneral
+        nuevo_termino = TerminoGeneral(
+            termino=termino,
+            definicion=definicion,
+            rama_id=rama_id,
+            subrama_id=subrama_id
+        )
+        nuevo_termino.save()
+
+        return render(request, 'myapp/addPalabra.html', {'mensaje': 'Palabra añadida correctamente.'})
+
+    return render(request, 'myapp/addPalabra.html')
