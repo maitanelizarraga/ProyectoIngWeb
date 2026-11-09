@@ -1,6 +1,69 @@
 fieldset{
-    border: 1px solid #000000;
+    border: 1px solid black;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+/* Formulario */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 2rem;
+  border: 2px solid #1E4FA3;
+  border-radius: 1.25rem;
+  background: #F6F8FB;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.campo label { 
+  font-weight: 700; 
+}
+
+.campo__ayuda { 
+  color: #3D4A5C; 
+  font-size: 1.05rem; 
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+  min-height: 3.25rem;
+  padding: 0.6rem 1rem;
+  border: 2px solid #14213D;
+  border-radius: 0.6rem;
+  background: #FFFFFF;
+  color: #14213D;
+  font: inherit;
+}
+
+.campo textarea { 
+  resize: vertical; 
+}
+
+.error {
+  color: #A61B1B;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.error ul { 
+  margin: 0; 
+  padding-left: 1.25rem; 
+}
+
+.formulario__botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+@media (max-width: 40rem) {
+  .formulario { padding: 1.25rem; }
 }

@@ -22,3 +22,165 @@
     border-radius: 8px;
     background-color: white;
 }
+
+/* Diccionario */
+.dos-columnas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.filtros {
+  display: flex;
+  flex: 1 1 16rem;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #D5DCE6;
+  border-radius: 1rem;
+  background: #F6F8FB;
+}
+
+.filtros__titulo { font-size: 1.35rem; }
+
+.filtros__lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.filtro {
+  display: flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0 0.9rem;
+  border: 2px solid #D5DCE6;
+  border-radius: 0.6rem;
+  background: white;
+  color: #14213D;
+  font-size: 1.1rem;
+}
+
+.filtro-activo { 
+  border-color: #14213D; 
+  background: #14213D; 
+  color: #FFFFFF; 
+  font-weight: 700; 
+}
+
+.filtro-activo:hover { 
+  color: white; 
+}
+
+.letras {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.letra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  border: 2px solid #D5DCE6;
+  border-radius: 0.5rem;
+  background: #FFFFFF;
+  color: #14213D;
+  font-weight: 700;
+}
+
+.letra-activa { 
+  border-color: #1E4FA3; 
+  background: #1E4FA3; 
+  color: white; 
+}
+.letra-activa:hover { 
+  color: white; 
+}
+
+.resultados {
+  display: flex;
+  flex: 999 1 35rem;
+  flex-direction: column;
+  gap: 1.25rem;
+  min-width: 0;
+}
+
+.resultados .buscador { 
+  max-width: none; 
+}
+
+.termino {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.75rem;
+  border: 2px solid #D5DCE6;
+  border-radius: 1rem;
+}
+
+.termino__cabeza {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.termino__palabra { 
+  font-size: 1.9rem; 
+}
+
+.termino__definicion { 
+  font-size: 1.3rem; 
+}
+
+.termino__acciones {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed #D5DCE6;
+}
+
+.termino__equipo {
+   margin-right: auto; 
+   font-size: 0.95rem; 
+}
+
+.etiqueta {
+  padding: 0.2rem 0.75rem;
+  border-radius: 62rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.etiqueta-publico { 
+  background: #DCE7F8; 
+  color: #14366F; 
+}
+
+.etiqueta-privado { 
+  background: #FDF0E1; 
+  color: #8A3F06; 
+}
+
+.vacio {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 2rem;
+  border: 2px dashed #9AA8BC;
+  border-radius: 1rem;
+  background: #F6F8FB;
+}
+

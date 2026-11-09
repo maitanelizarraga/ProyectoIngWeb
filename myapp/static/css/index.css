@@ -1,0 +1,24 @@
+#img {
+  position: relative;
+  min-height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+  color: #FFFFFF;
+  background-image:
+    linear-gradient(rgba(20, 33, 61, 0.55), rgba(20, 33, 61, 0.55)),
+    url("../img/portada.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* El h1 del hero va en blanco y sin el borde de main h1 */
+#img h1 {
+  padding-bottom: 0;
+  border-bottom: 0;
+  color: #FFFFFF;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
+}
+

@@ -1,0 +1,110 @@
+.bloque-tipo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 2rem;
+  border-radius: 1.25rem;
+}
+
+.bloque-tipo__antetitulo {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.bloque-tipo-publico { 
+  background: #1E4FA3; color: #FFFFFF; 
+}
+.bloque-tipo-publico a { 
+  color: #FFFFFF; 
+}
+
+.bloque-tipo-privado { 
+  border: 2px solid #8A3F06; background: #FFFFFF; 
+}
+.bloque-tipo-privado .bloque-tipo__antetitulo { 
+  color: #8A3F06; 
+}
+
+.subtitulo-marca {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.6rem;
+}
+
+.subtitulo-marca::before {
+  content: "";
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 0.25rem;
+}
+
+.subtitulo-marca-publico::before { 
+  background: #1E4FA3; 
+}
+
+.subtitulo-marca-privado::before { 
+  background: #B45309; 
+}
+
+/* Fichas de ramas */
+.ficha {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  border: 1px solid #D5DCE6;
+  border-radius: 1rem;
+  background: white;
+}
+
+.ficha__titulo a { 
+  color: #14213D; 
+}
+
+.ficha__texto { 
+  font-size: 1.15rem; 
+}
+
+.ejemplo {
+  padding: 0.65rem 0.8rem;
+  border-radius: 0.6rem;
+  background: #FFF6D6;
+  font-size: 1.05rem;
+}
+
+.ejemplo-grande { 
+  margin-top: 1rem; padding: 1rem 1.25rem; font-size: 1.25rem; 
+}
+
+/* Decálogo */
+.decalogo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  background: #FFD24D;
+}
+
+.decalogo__miniatura {
+  flex: none;
+  width: 10rem;
+  height: auto;
+}
+
+.decalogo__texto {
+  display: flex;
+  flex: 999 1 22rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+  min-width: 0;
+}
+
+@media (max-width: 40rem) {
+  .bloque-tipo, .decalogo { padding: 1.25rem; }
+}

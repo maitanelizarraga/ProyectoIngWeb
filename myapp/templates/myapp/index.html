@@ -1,6 +1,10 @@
 {% extends "myapp/base.html" %}
 {% load static %}
 
+{% block css_especifico %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+{% endblock %}
+
 {% block title %}Portada - Derecho a Entender{% endblock %}
 
 {% block content %}

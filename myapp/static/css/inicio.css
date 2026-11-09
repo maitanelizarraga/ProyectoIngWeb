@@ -1,0 +1,129 @@
+.portada { background: #EEF3FB; }
+
+.portada__fila {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.portada__texto {
+  display: flex;
+  flex: 999 1 32rem;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-width: 0;
+}
+
+.portada__titulo { 
+  font-size: 3.75rem; 
+  line-height: 1.1; 
+}
+
+.portada__lema { 
+  font-size: 1.5rem; 
+}
+
+.portada__imagen {
+  flex: 1 1 20rem;
+  min-width: 0;
+  max-width: 30rem;
+  height: auto;
+  border-radius: 1.5rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.chips__titulo { 
+  color: #3D4A5C; 
+  font-size: 1.05rem;
+}
+
+.chip {
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #D5DCE6;
+  border-radius: 62rem;
+  background: white;
+  color: #14213D;
+  font-size: 1.05rem;
+}
+
+.chip:hover { border-color: #14213D; }
+
+/* Tarjetas de la portada */
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 2rem;
+  border: 2px solid #D5DCE6;
+  border-radius: 1.25rem;
+  background: #FFFFFF;
+  color: #14213D;
+}
+
+.tarjeta:hover { 
+  border-color: #14213D; color: #14213D; 
+}
+
+.tarjeta__icono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+  color: #14213D;
+}
+
+.tarjeta__icono-amarillo { 
+  background: #FFD24D; 
+}
+
+.tarjeta__icono-azul { 
+  background: #DCE7F8; 
+}
+
+.tarjeta__icono-naranja { 
+  background: #FDF0E1; 
+}
+
+.tarjeta__titulo { 
+  font-size: 1.75rem; font-weight: 700; 
+}
+
+.tarjeta__enlace { 
+  margin-top: auto; color: #1E4FA3; font-weight: 700; 
+}
+
+/* Llamada a la acción */
+.llamada {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2.5rem;
+  border: 2px solid #14213D;
+  border-radius: 1.5rem;
+}
+
+.llamada h2 { 
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 40rem) {
+  .portada__titulo { font-size: 2.6rem; }
+  .portada__lema { font-size: 1.25rem; }
+  .portada__fila { padding-top: 2rem; padding-bottom: 2rem; gap: 2rem; }
+  .portada__imagen { max-width: 100%; }
+  .tarjeta, .llamada { padding: 1.25rem; }
+}
