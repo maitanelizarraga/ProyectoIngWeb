@@ -86,13 +86,22 @@
     font-size: 1.1rem;
 }
 
+#rama:invalid {
+  color: #8e95a5;
+}
+#rama option {
+    color: #14213D; /* Mantiene las opciones del menú desplegable oscuras */
+}
+
 /* Al seleccionar un campo */
 
 .campo input:focus,
 .campo select:focus,
 .campo textarea:focus {
     outline: none;
-    border-color: #1E4FA3;
+    box-shadow: none; /* Elimina bordes o resplandores extra del navegador */
+    border-color: #1E4FA3; /* Solo cambiamos el color al azul activo */
+    border-width: 3px; 
 }
 
 /* Área de texto */
