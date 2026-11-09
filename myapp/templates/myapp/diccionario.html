@@ -9,11 +9,14 @@
 {% block content %}
     <section id="motivacion" class="contenedor motivacion">
         <h1>Diccionario jurídico en lenguaje claro</h1>
-        <a href="{% url 'addPalabra' %}">Añadir Palabra</a>
+        
+
+
 
         <p>Explicaciones de términos legales</p>
 
-        <form action="{% url 'diccionario' %}" method="get">
+        <div class="barra-diccionario">
+            <form action="{% url 'diccionario' %}" method="get">
             <label for="buscar">Buscar término:</label>
             <input
                 type="search"
@@ -22,7 +25,14 @@
                 value="{{ consulta }}"
                 placeholder="Escribe una palabra">
             <button type="submit">Buscar</button>
-        </form>
+            </form>
+
+            <a href="{% url 'addPalabra' %}" class="btn-add-palabra">
+                + Añadir palabra
+            </a>
+            
+        </div>
+        
 
         {% if grupos %}
             {% for grupo in grupos %}
