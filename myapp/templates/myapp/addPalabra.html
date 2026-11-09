@@ -1,0 +1,51 @@
+
+{% extends "myapp/base.html" %}
+
+{% load static %}
+
+{% block css_especifico %}
+<link rel="stylesheet" href="{% static 'css/formulario.css' %}">
+{% endblock %}
+
+{% block title %}Añadir palabra{% endblock %}
+
+{% block content %}
+
+<h1>Añadir palabra</h1>
+
+<p>Los campos con * son obligatorios</p>
+
+<form method="post">
+    {% csrf_token %}
+
+    <fieldset>
+        <p>Palabra *</p>
+        <input type="text" name="palabra" required>
+
+        <p>Rama del Derecho *</p>
+        <select name="rama" required>
+            <option value="" selected disabled>------------</option>
+            <option value="Civil">Civil</option>
+            <option value="Penal">Penal</option>
+            <option value="Laboral">Laboral</option>
+            <option value="Mercantil">Mercantil</option>
+            <option value="Administrativo">Administrativo</option>
+            <option value="Constitucional">Constitucional</option>
+            <option value="Internacional">Internacional</option>
+        </select>
+
+        <p>Explicación fácil *</p>
+        <p>Usa un máximo de 300 caracteres.</p>
+        <textarea name="descripcion" required maxlength="300" rows="10"></textarea>
+
+        <p>Ejemplo</p>
+        <textarea name="ejemplo" rows="5"></textarea>
+    </fieldset>
+
+    <button type="submit">Guardar palabra</button>
+</form>
+
+<p><a href="{% url 'diccionario' %}">Volver al diccionario</a></p>
+
+{% endblock %}
+```
