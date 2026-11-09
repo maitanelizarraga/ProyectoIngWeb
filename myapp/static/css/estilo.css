@@ -460,11 +460,9 @@ img { max-width: 100%; height: auto; }
 }
 
 .decalogo__miniatura {
-  flex: 1 1 9rem;
-  max-width: 10rem;
-  min-height: 12.5rem;
-  border-color: #14213D;
-  border-radius: 0.75rem;
+  flex: none;
+  width: 10rem;
+  height: auto;
 }
 
 .decalogo__texto {
