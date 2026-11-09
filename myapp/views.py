@@ -72,3 +72,13 @@ def addPalabra(request):
         return render(request, 'myapp/addPalabra.html', {'mensaje': 'Palabra añadida correctamente.'})
 
     return render(request, 'myapp/addPalabra.html')
+
+
+def galeria(request):
+    return render(request, 'myapp/galeria.html')
+
+def ramasDerecho(request):
+    return render(request, 'myapp/ramasDerecho.html')
+
+def nuevas(request):
+    return render(request, 'myapp/nuevas.html')

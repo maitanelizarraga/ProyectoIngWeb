@@ -8,4 +8,7 @@ urlpatterns = [
     path('diccionario/<int:id_termino>/', views.detalle_termino, name='detalle_termino'),
     path('inicio/', views.inicio, name='inicio'),
     path('addPalabra/', views.addPalabra, name='addPalabra'),
+    path('ramasDerecho/', views.ramasDerecho, name='ramasDerecho'),
+    path('galeria/', views.galeria, name='galeria'),
+    path('nuevas/', views.nuevas, name='nuevas'),
 ]

@@ -1,0 +1,47 @@
+{% extends "myapp/base.html" %}
+{% load static %}
+
+{% block title %}Inicio · Derecho a entender · Lectura Fácil{% endblock %}
+
+{% block css_especifico %}
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+{% endblock %}
+
+{% block content %}
+  <!--Galería (avance)-->
+  <section class="contenedor seccion">
+    <div class="seccion__cabeza seccion__cabeza-fila">
+      <div>
+        <h2>Galería de contenidos</h2>
+        <p class="secundario">Vídeos e infografías para entender el Derecho.</p>
+      </div>
+      <a class="boton boton-secundario" href="/galeria/">Ver toda la galería</a>
+    </div>
+    <div class="grid grid-3">
+      <article class="recurso">
+        <div class="recurso__imagen recurso__imagen-video">
+          <span class="etiqueta-oscura">Vídeo · 0:29</span>
+          <span class="recurso__play"><img src="{% static 'img/play-azul.svg' %}" alt="" width="26" height="26"></span>
+        </div>
+        <h3 class="recurso__titulo">¿Para qué sirve el Derecho público?</h3>
+        <p class="recurso__texto">Vídeo corto con las ramas del Derecho público.</p>
+      </article>
+      <article class="recurso">
+        <div class="recurso__imagen recurso__imagen-video recurso__imagen-privado">
+          <span class="etiqueta-oscura">Vídeo · 0:17</span>
+          <span class="recurso__play"><img src="{% static 'img/play-naranja.svg' %}" alt="" width="26" height="26"></span>
+        </div>
+        <h3 class="recurso__titulo">¿Para qué sirve el Derecho privado?</h3>
+        <p class="recurso__texto">Vídeo corto con las ramas del Derecho privado.</p>
+      </article>
+      <article class="recurso">
+        <div class="recurso__imagen recurso__imagen-infografia">
+          <span class="etiqueta-oscura">Infografía</span>
+          <img src="{% static 'img/icono-infografia.svg' %}" alt="" width="48" height="48">
+        </div>
+        <h3 class="recurso__titulo">Decálogo de las ramas del Derecho</h3>
+        <p class="recurso__texto">Infografía que resume todas las ramas con imágenes.</p>
+      </article>
+    </div>
+  </section>
+{% endblock %}

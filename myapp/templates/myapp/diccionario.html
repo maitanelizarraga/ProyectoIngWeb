@@ -7,27 +7,27 @@
 
 {% block title %}Diccionario - Derecho jurídico{% endblock %}
 {% block content %}
+    <section id="motivacion"class="contenedor motivacion">
+        <h1>Diccionario jurídico en lenguaje claro</h1>
+        <a href="{% url 'addPalabra' %}">Añadir Palabra</a>
 
-    <h1>Diccionario jurídico en lenguaje claro</h1>
-    <!-- Este link es una prueba, cambiar de posicon o eliminar cuando se necesite -->
-    <a href="{% url 'addPalabra' %}">Añadir Palabra</a>
+        <p>Explicaciones de términos legales</p>
 
-    <p>Explicaciones de términos legales</p>
-
-    {% if grupos %}
-        {% for grupo in grupos %}
-            <h2 class="letra-diccionario">{{ grupo.letra }}</h2>
-            <ul>
-                {% for termino in grupo.terminos %}
-                    <li>
-                        <a href="{% url 'detalle_termino' termino.id %}">{{ termino.termino }}</a>
-                        <p>{{ termino.definicion|truncatewords:30 }}</p>
-                    </li>
-                {% endfor %}
-            </ul>
-        {% endfor %}
-    {% else %}
-        <p>No hay términos en el diccionario.</p>
-    {% endif %}
+        {% if grupos %}
+            {% for grupo in grupos %}
+                <h2 class="letra-diccionario">{{ grupo.letra }}</h2>
+                <ul>
+                    {% for termino in grupo.terminos %}
+                        <li>
+                            <a href="{% url 'detalle_termino' termino.id %}">{{ termino.termino }}</a>
+                            <p>{{ termino.definicion|truncatewords:30 }}</p>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+        {% else %}
+            <p>No hay términos en el diccionario.</p>
+        {% endif %}
+    </section>
 
 {% endblock %}

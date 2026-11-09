@@ -49,9 +49,10 @@
                 <ul class="menu">
                     <li><a href="/inicio/" {% if request.resolver_match.url_name == 'inicio' %}aria-current="page"{% endif %} >Inicio</a></li>
                     <li><a href="{% url 'diccionario' %}" {% if request.resolver_match.url_name == 'diccionario' %}aria-current="page"{% endif %}>Diccionario</a></li>
-                    <li><a href="/ramas/" {% if request.path == '/ramas/' %}aria-current="page"{% endif %}>Ramas del Derecho</a></li>
+                    <li><a href="/ramasDerecho/" {% if request.path == '/ramasDerecho/' %}aria-current="page"{% endif %}>Ramas del Derecho</a></li>
                     <li><a href="/galeria/" {% if request.path == '/galeria/' %}aria-current="page"{% endif %}>Galería</a></li>
-                    <li><a href="/quienes-somos/" {% if request.path == '/quienes-somos/' %}aria-current="page"{% endif %}>Quiénes somos</a></li>
+                    <li><a href="/nuevas/" {% if request.path == '/nuevas/' %}aria-current="page"{% endif %}>Palabras Nuevas</a></li>
+
                 </ul>
             </nav>
         </div>
@@ -73,7 +74,7 @@
             <nav class="footer__col" aria-label="Secciones">
                 <p class="footer__titulo">Secciones</p>
                 <a href="/diccionario/">Diccionario</a>
-                <a href="/ramas/">Ramas del Derecho</a>
+                <a href="/ramasDerecho/">Ramas del Derecho</a>
                 <a href="/galeria/">Galería</a>
                 <a href="/admin/">Acceso para el equipo</a>
             </nav>

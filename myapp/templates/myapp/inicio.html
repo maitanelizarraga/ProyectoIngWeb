@@ -4,7 +4,7 @@
 {% block title %}Inicio · Derecho a entender · Lectura Fácil{% endblock %}
 
 {% block css_especifico %}
-<link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -58,100 +58,6 @@
         <span>Vídeos e infografías<br>para aprender con imágenes.</span>
         <span class="tarjeta__enlace">Ver la galería →</span>
       </a>
-    </div>
-  </section>
-
-  <!--Ramas del Derecho-->
-  <section class="franja">
-    <div class="contenedor seccion">
-      <div class="seccion__cabeza">
-        <h2>Ramas del Derecho</h2>
-        <p class="secundario">En Derecho hay materias diferentes.<br>Se dividen en dos grandes tipos:<br>el Derecho público y el Derecho privado.</p>
-      </div>
-      <div class="grid grid-2">
-        <div class="bloque-tipo bloque-tipo-publico">
-          <p class="bloque-tipo__antetitulo">El Estado y las personas</p>
-          <h3>Derecho público</h3>
-          <p>Regula las relaciones entre el Estado<br>y las personas.</p>
-        </div>
-        <div class="bloque-tipo bloque-tipo-privado">
-          <p class="bloque-tipo__antetitulo">Entre personas</p>
-          <h3>Derecho privado</h3>
-          <p>Regula las relaciones<br>entre dos o más personas.</p>
-        </div>
-      </div>
-
-      <h3 class="subtitulo-marca subtitulo-marca-publico">Ramas del Derecho público</h3>
-      <div class="grid grid-fichas">
-        {% for rama in ramas_publico %}
-        <article class="ficha">
-          <h4 class="ficha__titulo">{{ rama.nombre }}</h4>
-          <p class="ficha__texto">{{ rama.descripcion|linebreaksbr }}</p>
-          {% if rama.ejemplo %}<p class="ejemplo"><strong>Ejemplo:</strong> {{ rama.ejemplo }}</p>{% endif %}
-        </article>
-        {% empty %}
-        <p class="secundario">Todavía no hay ramas guardadas.</p>
-        {% endfor %}
-      </div>
-
-      <h3 class="subtitulo-marca subtitulo-marca-privado">Ramas del Derecho privado</h3>
-      <div class="grid grid-fichas">
-        {% for rama in ramas_privado %}
-        <article class="ficha">
-          <h4 class="ficha__titulo">{{ rama.nombre }}</h4>
-          <p class="ficha__texto">{{ rama.descripcion|linebreaksbr }}</p>
-          {% if rama.ejemplo %}<p class="ejemplo"><strong>Ejemplo:</strong> {{ rama.ejemplo }}</p>{% endif %}
-        </article>
-        {% empty %}
-        <p class="secundario">Todavía no hay ramas guardadas.</p>
-        {% endfor %}
-      </div>
-
-      <div class="decalogo">
-        <img class="decalogo__miniatura" src="{% static 'img/decalogo.svg' %}" alt="Miniatura del decálogo de las ramas del Derecho" width="160" height="200">
-        <div class="decalogo__texto">
-          <h3>Decálogo de las ramas del Derecho</h3>
-          <p>Un resumen con imágenes<br>de todas las ramas del Derecho.</p>
-          <a class="boton boton-oscuro" href="/galeria/#decalogo">Ver el decálogo</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--Galería (avance)-->
-  <section class="contenedor seccion">
-    <div class="seccion__cabeza seccion__cabeza-fila">
-      <div>
-        <h2>Galería de contenidos</h2>
-        <p class="secundario">Vídeos e infografías para entender el Derecho.</p>
-      </div>
-      <a class="boton boton-secundario" href="/galeria/">Ver toda la galería</a>
-    </div>
-    <div class="grid grid-3">
-      <article class="recurso">
-        <div class="recurso__imagen recurso__imagen-video">
-          <span class="etiqueta-oscura">Vídeo · 0:29</span>
-          <span class="recurso__play"><img src="{% static 'img/play-azul.svg' %}" alt="" width="26" height="26"></span>
-        </div>
-        <h3 class="recurso__titulo">¿Para qué sirve el Derecho público?</h3>
-        <p class="recurso__texto">Vídeo corto con las ramas del Derecho público.</p>
-      </article>
-      <article class="recurso">
-        <div class="recurso__imagen recurso__imagen-video recurso__imagen-privado">
-          <span class="etiqueta-oscura">Vídeo · 0:17</span>
-          <span class="recurso__play"><img src="{% static 'img/play-naranja.svg' %}" alt="" width="26" height="26"></span>
-        </div>
-        <h3 class="recurso__titulo">¿Para qué sirve el Derecho privado?</h3>
-        <p class="recurso__texto">Vídeo corto con las ramas del Derecho privado.</p>
-      </article>
-      <article class="recurso">
-        <div class="recurso__imagen recurso__imagen-infografia">
-          <span class="etiqueta-oscura">Infografía</span>
-          <img src="{% static 'img/icono-infografia.svg' %}" alt="" width="48" height="48">
-        </div>
-        <h3 class="recurso__titulo">Decálogo de las ramas del Derecho</h3>
-        <p class="recurso__texto">Infografía que resume todas las ramas con imágenes.</p>
-      </article>
     </div>
   </section>
 
