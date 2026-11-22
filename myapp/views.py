@@ -1,7 +1,8 @@
 from django.shortcuts import render, get_object_or_404
 from .models import TerminoGeneral, Subrama
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.db.models import Q
+from .forms import TerminoForm
 
 
 def index(request):
@@ -70,23 +71,14 @@ def inicio(request):
 
 def addPalabra(request):
     if request.method == 'POST':
-        termino = request.POST.get('termino')
-        definicion = request.POST.get('definicion')
-        rama_id = request.POST.get('rama')
-        subrama_id = request.POST.get('subrama')
+        form = TerminoForm(request.POST)
+        if form.is_valid():
+            nuevo_termino = form.save()
 
-        # Crear un nuevo objeto TerminoGeneral
-        nuevo_termino = TerminoGeneral(
-            termino=termino,
-            definicion=definicion,
-            rama_id=rama_id,
-            subrama_id=subrama_id
-        )
-        nuevo_termino.save()
-
-        return render(request, 'myapp/addPalabra.html', {'mensaje': 'Palabra añadida correctamente.'})
-
-    return render(request, 'myapp/addPalabra.html')
+            return HttpResponseRedirect(f'/diccionario/{nuevo_termino.id}/')
+    else:
+        form = TerminoForm()
+    return render(request, 'myapp/addPalabra.html', {'form': form})
 
 
 def galeria(request):

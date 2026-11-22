@@ -18,40 +18,26 @@
 
     <form method="post" class="formulario">
         {% csrf_token %}
+        {{form.non_field_errors}}
 
-        <fieldset>
-            <div class="campo">
-                <label for="palabra">Palabra *</label>
-                <input type="text" id="palabra" name="palabra" required>
+        <fieldest>
+            <div class ="campo">
+                {{form.termino.errors}}
+                <label for="{{form.termino.id_for_label}}" >Palabra * </label>
+                {{form.termino}}
             </div>
-
-            <div class="campo">
-                <label for="rama">Rama del Derecho *</label>
-                <select id="rama" name="rama" required>
-                    <option value="" selected disabled id="rama-opcion-vacia" hidden>-----------------</option>
-                    <option value="Civil">Civil</option>
-                    <option value="Penal">Penal</option>
-                    <option value="Laboral">Laboral</option>
-                    <option value="Mercantil">Mercantil</option>
-                    <option value="Administrativo">Administrativo</option>
-                    <option value="Constitucional">Constitucional</option>
-                    <option value="Internacional">Internacional</option>
-                </select>
+            <div class ="campo">
+                {{form.definicion.errors}}
+                <label for="{{form.definicion.id_for_label}}" >Rama o Categoría </label>
+                {{form.definicion}}
             </div>
-
-            <div class="campo">
-                <label for="descripcion">Explicación fácil *</label>
-                <p class="campo__ayuda">Usa un máximo de 300 caracteres.</p>
-                <textarea id="descripcion" name="descripcion" required maxlength="300" rows="5"></textarea>
+            <div class ="campo">
+                {{form.fuente.errors}}
+                <label for="{{form.fuente.id_for_label}}" >Fuente </label>
+                {{form.fuente}}
             </div>
-
-            <div class="campo">
-                <label for="ejemplo">Ejemplo</label>
-                <textarea id="ejemplo" name="ejemplo" rows="3"></textarea>
-            </div>
-        </fieldset>
-
-        <button type="submit">Guardar palabra</button>
+        </fieldest>
+        <button type ="submit"> Guardar palabra </button>
     </form>
 
     <p class="volver-contenedor">

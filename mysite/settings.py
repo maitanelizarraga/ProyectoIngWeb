@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv() # Esto lee tu archivo .env
 from pathlib import Path
 
-from pathlib import Path
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -89,11 +89,7 @@ DATABASES = {
         'PORT': os.getenv('PGPORT', '5432'),
         'OPTIONS': {
             'sslmode': 'require',
-            'channel_binding': 'require',
-            'prepare_threshold': None,  
         },
-        'DISABLE_SERVER_SIDE_CURSORS': True,  # 👈 MUY IMPORTANTE para el Pooler
-        'CONN_MAX_AGE': 0,                    # 👈 Para evitar conexiones colgadas
     }
 }
 
@@ -120,9 +116,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/6.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Madrid'
 
 USE_I18N = True
 

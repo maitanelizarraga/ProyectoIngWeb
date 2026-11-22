@@ -152,6 +152,14 @@
     color: #14213D;
 }
 
+.errorlist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: darkred;
+    font-weight: 700;
+}
+
 /* Adaptación a móviles */
 
 @media (max-width: 600px) {
