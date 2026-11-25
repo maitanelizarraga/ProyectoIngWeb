@@ -155,6 +155,10 @@
     font-weight: 700;
 }
 
+.campo select[multiple] {
+    min-height: 12rem;
+}
+
 /* Adaptación a móviles */
 
 @media (max-width: 600px) {

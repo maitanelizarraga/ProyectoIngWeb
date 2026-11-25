@@ -121,7 +121,10 @@ class TerminoGeneral(models.Model):
     termino     = models.CharField(max_length=150, unique=True)
     definicion  = models.TextField()
     fuente      = models.CharField(max_length=200, blank=True)
+    ejemplo       = models.TextField(blank=True)
+    relacionados  = models.CharField(max_length=300, blank=True)
     categoria   = models.CharField(max_length=80, blank=True)
+    subramas    = models.ManyToManyField(Subrama, blank=True, related_name='terminos')
     created_at  = models.DateTimeField(auto_now_add=True)
     updated_at  = models.DateTimeField(auto_now=True)
 

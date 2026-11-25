@@ -20,7 +20,7 @@
         {% csrf_token %}
         {{form.non_field_errors}}
 
-        <fieldest>
+        <fieldset>
             <div class ="campo">
                 {{form.termino.errors}}
                 <label for="{{form.termino.id_for_label}}" >Palabra * </label>
@@ -28,15 +28,22 @@
             </div>
             <div class ="campo">
                 {{form.definicion.errors}}
-                <label for="{{form.definicion.id_for_label}}" >Rama o Categoría </label>
+                <label for="{{form.definicion.id_for_label}}" >Explicación fácil </label>
                 {{form.definicion}}
             </div>
+            <div class="campo">
+                {{ form.subramas.errors }}
+                <label for="{{ form.subramas.id_for_label }}">Rama o ramas del Derecho</label>
+                <p class="campo__ayuda">Puedes elegir varias: mantén pulsada la tecla Ctrl y haz clic.</p>
+                {{ form.subramas }}
+            </div>
+
             <div class ="campo">
                 {{form.fuente.errors}}
                 <label for="{{form.fuente.id_for_label}}" >Fuente </label>
                 {{form.fuente}}
             </div>
-        </fieldest>
+        </fieldset>
         <button type ="submit"> Guardar palabra </button>
     </form>
 

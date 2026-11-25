@@ -34,6 +34,19 @@
         </div>
         
 
+        <div class="barra-diccionario">
+            <form action="{% url 'diccionario' %}" method="get">
+                <label for="rama">Filtrar por rama:</label>
+                <select id="rama" name="rama">
+                    <option value="">Todas las ramas</option>
+                    {% for rama in ramas %}
+                        <option value="{{ rama.id }}">{{ rama.nombre }}</option>
+                    {% endfor %}
+                </select>
+                <button type="submit">Filtrar</button>
+            </form>
+        </div>
+
         {% if grupos %}
             {% for grupo in grupos %}
                 <h2 class="letra-diccionario">{{ grupo.letra }}</h2>

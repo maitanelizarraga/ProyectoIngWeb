@@ -4,4 +4,4 @@ from .models import TerminoGeneral
 class TerminoForm(ModelForm):
     class Meta:
         model = TerminoGeneral
-        fields = ['termino', 'definicion', 'categoria', 'fuente']
+        fields = ['termino', 'definicion', 'subramas', 'fuente']

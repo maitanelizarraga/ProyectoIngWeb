@@ -13,8 +13,13 @@ def index(request):
 
 def diccionario(request):
     consulta = request.GET.get('q', '').strip()
+    rama_id = request.GET.get('rama', '')         
 
     terminos = TerminoGeneral.objects.all()
+
+    # NUEVO: filtrar por rama
+    if rama_id:
+        terminos = terminos.filter(subramas__id=rama_id)
 
     # Buscar por término o definición
     if consulta:
@@ -43,7 +48,8 @@ def diccionario(request):
 
     context = {
         'grupos': grupos,
-        'consulta': consulta
+        'consulta': consulta,
+        'ramas': Subrama.objects.all(),
     }
 
     return render(request, 'myapp/diccionario.html', context)
@@ -55,7 +61,7 @@ def detalle_termino(request, id_termino):
 
 
 def portada(request):
-    return render(request, 'myapp/portada.html')
+    return render(request, 'myapp/index.html')
 
 
 def inicio(request):

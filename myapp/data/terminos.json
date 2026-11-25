@@ -1,0 +1,2115 @@
+[
+ {
+  "termino": "Abogado / Abogada",
+  "definicion": "Es la persona que defiende y ayuda a las personas interesadas en un asunto jurídico.",
+  "subramas": [],
+  "ejemplo": "El abogado que me recomendó mi amiga me defenderá en el juicio.",
+  "relacionados": "Interesado o interesada, Jurídico"
+ },
+ {
+  "termino": "Absolución",
+  "definicion": "Cuando alguien es inocente y no se pone un castigo.",
+  "subramas": [],
+  "ejemplo": "El juez le absolvió de todos los delitos al no tener las pruebas suficientes.",
+  "relacionados": "Inocente"
+ },
+ {
+  "termino": "Abstención",
+  "definicion": "Cuando una persona decide no participar en un proceso judicial.",
+  "subramas": [],
+  "ejemplo": "Se abstuvo de declarar en el juicio.",
+  "relacionados": "Judicial"
+ },
+ {
+  "termino": "Aceptación",
+  "definicion": "Derecho Mercantil: Cuando los socios o socias de una empresa aprueban distintas decisiones.\n\nDerecho Administrativo: Cuando la Administración pública acuerda hacer un proyecto.\n\nDerecho Internacional: Cuando un Estado aprueba las normas de un tratado.\n\nDerecho Civil: Cuando una persona aprueba una oferta de contrato.",
+  "subramas": [
+   "Derecho Mercantil",
+   "Derecho Administrativo",
+   "Derecho Internacional Público",
+   "Derecho Civil"
+  ],
+  "ejemplo": "Los socios de la mercantil han aceptado la decisión de liquidar la sociedad.\n\nLa Administración ha aceptado el presupuesto para realizar el nuevo parque.\n\nEspaña ha aceptado el tratado en Bruselas.\n\nHe aceptado el contrato de compraventa.",
+  "relacionados": "Socio o socia, Administración pública, Estado, Tratado, Contrato"
+ },
+ {
+  "termino": "Acreedor / Acreedora",
+  "definicion": "Es la persona que obliga al deudor. Por ejemplo, cuando le obliga a pagarle.",
+  "subramas": [],
+  "ejemplo": "El acreedor exige al deudor que le pague con dinero.",
+  "relacionados": "Deudor o deudora, Obligación"
+ },
+ {
+  "termino": "Activo",
+  "definicion": "Es todo lo que tiene una empresa y que sirve para ganar dinero. Por ejemplo, el local.",
+  "subramas": [],
+  "ejemplo": "La suma del activo de la empresa de mi padre son 100.000 euros.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Acto administrativo",
+  "definicion": "Cuando la Administración pública dice su voluntad y obliga a los ciudadanos y ciudadanas.",
+  "subramas": [],
+  "ejemplo": "La Administración pública inició un nuevo acto administrativo.",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Acto anulable",
+  "definicion": "Cuando un acto jurídico tiene algún defecto. Pueden dejar de ser válidos mediante una declaración judicial.",
+  "subramas": [],
+  "ejemplo": "El contrato es anulable por una incoherencia en el contenido.",
+  "relacionados": "Jurídico"
+ },
+ {
+  "termino": "Acto de ejecución",
+  "definicion": "Cuando la Comisión europea o el Consejo desarrollan normas de la Unión Europea.",
+  "subramas": [],
+  "ejemplo": "El Consejo inició el acto de ejecución.",
+  "relacionados": "Comisión europea, Consejo europeo, Unión Europea"
+ },
+ {
+  "termino": "Acto delegado",
+  "definicion": "Cuando la Comisión europea consigue el poder para cambiar algunas partes de algunas normas de la Unión Europea.",
+  "subramas": [],
+  "ejemplo": "La Comisión europea inició el acto delegado.",
+  "relacionados": "Comisión europea, Unión Europea"
+ },
+ {
+  "termino": "Acto judicial",
+  "definicion": "Cuando se acude a los juzgados por un asunto o se inicia un procedimiento judicial.",
+  "subramas": [],
+  "ejemplo": "Mi hermano inició un acto judicial contra su vecino.",
+  "relacionados": "Juzgado, Procedimiento judicial"
+ },
+ {
+  "termino": "Acto legislativo",
+  "definicion": "Es un acto jurídico hecho mediante un procedimiento ordinario o especial.",
+  "subramas": [],
+  "ejemplo": "El poder ejecutivo inició el acto legislativo.",
+  "relacionados": "Jurídico, Procedimiento ordinario, Procedimiento especial"
+ },
+ {
+  "termino": "Acto nulo",
+  "definicion": "Cuando un acto jurídico tiene un defecto grave y es como si nunca hubiera tenido efectos.",
+  "subramas": [],
+  "ejemplo": "El contrato es nulo por tener un error en la forma.",
+  "relacionados": "Jurídico"
+ },
+ {
+  "termino": "Acuerdo",
+  "definicion": "Cuando se toma una decisión en común por varias personas.",
+  "subramas": [],
+  "ejemplo": "Las partes llegaron a un acuerdo.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Acusación particular",
+  "definicion": "Es el abogado o abogada de la víctima.",
+  "subramas": [],
+  "ejemplo": "La acusación particular presentó tarde el escrito.",
+  "relacionados": "Abogado o abogada, Víctima"
+ },
+ {
+  "termino": "Acusado / Acusada",
+  "definicion": "Cuando a una persona se le culpa de un delito.",
+  "subramas": [],
+  "ejemplo": "Ha sido acusado de un delito de homicidio.",
+  "relacionados": "Delito"
+ },
+ {
+  "termino": "Adhesión",
+  "definicion": "Derecho Internacional: Cuando un Estado acepta la oferta de formar parte de un tratado negociado y firmado por otros Estados.\n\nDerecho Laboral: Cuando un grupo de trabajadores decide aplicar un Convenio Colectivo ya escrito.",
+  "subramas": [
+   "Derecho Internacional Público",
+   "Derecho Laboral"
+  ],
+  "ejemplo": "La Convención de Viena establece la aprobación y adhesión de los Estados hacia los tratados.\n\nLa nueva empresa de mi padre ha decidido adherirse al Convenio Colectivo para empresas de industria química.",
+  "relacionados": "Estado, Tratado, Trabajador o trabajadora, Convenio, Colectivo"
+ },
+ {
+  "termino": "Administración de Justicia",
+  "definicion": "Son todas las instituciones que aseguran el derecho.",
+  "subramas": [],
+  "ejemplo": "La Administración de Justicia garantiza la aplicación de las leyes.",
+  "relacionados": "Derecho"
+ },
+ {
+  "termino": "Administración pública",
+  "definicion": "Es un grupo de personas que organiza al gobierno y ciudadanía de un país. Como, por ejemplo, el ayuntamiento, las Diputaciones Forales o el Gobierno Vasco.",
+  "subramas": [],
+  "ejemplo": "Tengo que interponer un recurso contra la Administración pública para continuar con el procedimiento ya iniciado.",
+  "relacionados": "Gobierno, Ayuntamiento, Diputaciones, Forales, Gobierno Vasco"
+ },
+ {
+  "termino": "Administración tributaria",
+  "definicion": "Es una institución del Estado que se encarga del derecho tributario.",
+  "subramas": [],
+  "ejemplo": "He recibido una multa de la Administración tributaria.",
+  "relacionados": "Estado, Derecho tributario"
+ },
+ {
+  "termino": "Adopción",
+  "definicion": "Derecho Internacional: Cuando se establecen la forma y el contenido de un tratado.\n\nDerecho civil: Situación legal en que un adulto o una familia acoge para siempre como hijo suyo a un niño o niña que nació en otra familia.",
+  "subramas": [
+   "Derecho Internacional Público",
+   "Derecho Civil"
+  ],
+  "ejemplo": "El pasado domingo adoptaron el tratado en Bruselas.\n\nHe adoptado a una chica de 16 años, debido a que sus padres biológicos fallecieron hace algunos años.",
+  "relacionados": "Tratado"
+ },
+ {
+  "termino": "Agravante",
+  "definicion": "Cuando algo aumenta la gravedad de un delito.",
+  "subramas": [],
+  "ejemplo": "El juez decidió aumentar la condena por el agravante.",
+  "relacionados": "Delito"
+ },
+ {
+  "termino": "Alegación",
+  "definicion": "La argumentación que se hace sobre los hechos para defenderse.",
+  "subramas": [],
+  "ejemplo": "Alegó ser inocente en el juicio.",
+  "relacionados": "Hecho jurídico"
+ },
+ {
+  "termino": "Allanamiento",
+  "definicion": "Derecho procesal: Cuando una persona demandada acepta lo que se dice contra ella en una demanda.\n\nDerecho Penal: Delito que ocurre cuando una persona entra en una casa que no es suya y sin permiso del dueño.",
+  "subramas": [
+   "Derecho Procesal",
+   "Derecho Penal"
+  ],
+  "ejemplo": "Allanó lo que se alegaba contra él en la demanda.\n\nMi casa fue allanada por unos okupas el pasado sábado.",
+  "relacionados": "Demanda, Demandado o demandada, Delito"
+ },
+ {
+  "termino": "Amortización",
+  "definicion": "Cuando el activo pierde valor por el paso del tiempo.",
+  "subramas": [],
+  "ejemplo": "La empresa debe aplicar una amortización de 3.000 euros por la furgoneta.",
+  "relacionados": "Activo"
+ },
+ {
+  "termino": "Antecedentes de hecho",
+  "definicion": "Son las situaciones y acciones que han pasado hasta el juicio. Por ejemplo, un accidente de tráfico y la denuncia que se pone después.",
+  "subramas": [],
+  "ejemplo": "“Los antecedentes de hecho mostraban que el acusado no contaba toda la verdad”",
+  "relacionados": "Juicio, Denuncia"
+ },
+ {
+  "termino": "Anulabilidad",
+  "definicion": "Derecho Civil: Es la actuación o característica que quizás no vale porque tiene un defecto. Para que no valga se tiene que reclamar en plazo.\n\nDerecho administrativo: Cuando se invalida un acto administrativo porque falta el ordenamiento jurídico o porque ocurre una desviación de poder.",
+  "subramas": [
+   "Derecho Civil",
+   "Derecho Administrativo"
+  ],
+  "ejemplo": "El contrato es anulable.\n\nEl acto se anulará debido a la desviación de poder de la .",
+  "relacionados": "Plazo, Reclamación, Acto administrativo, Ordenamiento jurídico, Desviación de poder"
+ },
+ {
+  "termino": "Anulación",
+  "definicion": "Cuando se invalida un acto jurídico desde el momento en el que se crea.",
+  "subramas": [],
+  "ejemplo": "Se ha declarado la anulación del contrato.",
+  "relacionados": "Acto jurídico"
+ },
+ {
+  "termino": "Aplazamiento de pago",
+  "definicion": "Derecho Civil: Cuando se deja de pagar durante un tiempo una parte o todo el precio de la hipoteca. Puede durar entre tres y cinco años.\n\nDerecho Tributario: El aplazamiento de pago fiscal es cuando se alarga el plazo para realizar un pago a la Hacienda Pública.",
+  "subramas": [
+   "Derecho Civil",
+   "Derecho Financiero y Tributario"
+  ],
+  "ejemplo": "He solicitado un aplazamiento de pago al banco.\n\nHe solicitado un aplazamiento de pago a Hacienda.",
+  "relacionados": "Hipoteca, Hacienda pública"
+ },
+ {
+  "termino": "Aprobación",
+  "definicion": "Derecho Internacional: Cuando un Estado autoriza un tratado después de firmarlo. Lo hace el gobierno.\n\nDerecho Administrativo: Es el último acto de un expediente administrativo.\n\nDerecho Constitucional: Es el último acto en la votación de un proyecto de ley o proposición de ley.\n\nDerecho Tributario: Es el acto donde se autoriza un gasto público.",
+  "subramas": [
+   "Derecho Internacional Público",
+   "Derecho Administrativo",
+   "Derecho Constitucional",
+   "Derecho Financiero y Tributario"
+  ],
+  "ejemplo": "Francia ha aprobado el tratado.\n\nLa administración ha aprobado la solicitud al final.\n\nEl Congreso ha aprobado el proyecto de ley.\n\nSe ha aprobado el presupuesto de la obra del ayuntamiento.",
+  "relacionados": "Estado, Gobierno, Expediente, Votación, Proyecto de ley, Proposición de ley, Gasto público"
+ },
+ {
+  "termino": "Arbitraje",
+  "definicion": "Es el proceso en el que las partes deciden que un árbitro o árbitra sea quien dicte la resolución de un conflicto. En el arbitraje no se acude a los tribunales.",
+  "subramas": [],
+  "ejemplo": "El arbitraje es una fase importante del procedimiento judicial.",
+  "relacionados": "Árbitro o árbitra, Parte, Dictar, Tribunal"
+ },
+ {
+  "termino": "Arbitro o arbitra",
+  "definicion": "Es la persona que resuelve un conflicto entre dos partes antes del juicio.",
+  "subramas": [],
+  "ejemplo": "El árbitro resolvió el conflicto antes de llegar a celebrarse el juicio.",
+  "relacionados": "Juicio"
+ },
+ {
+  "termino": "Arras",
+  "definicion": "Es un pago que las personas hacen cuando firman un contrato para confirmar que las partes lo cumplirán.",
+  "subramas": [],
+  "ejemplo": "La parte deudora entregó las arras a la parte acreedora.",
+  "relacionados": "Contrato, Parte"
+ },
+ {
+  "termino": "Arrendado / Arrendada",
+  "definicion": "Es la persona que deja una cosa suya a otra persona durante un tiempo. La otra persona pagará dinero a cambio.",
+  "subramas": [],
+  "ejemplo": "El arrendado avisó al arrendatario de que debía pagar su deuda.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Arrendatario / Arrendataria",
+  "definicion": "Es la persona que utiliza una cosa que no es suya durante un tiempo. Para utilizar esa cosa deberá pagar dinero a la persona que se lo deja.",
+  "subramas": [],
+  "ejemplo": "El arrendatario dejó de pagar al arrendado durante 3 meses.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Asistencia jurídica gratuita",
+  "definicion": "Es la ayuda jurídica que se ofrece a quienes no tienen dinero suficiente para pagar un proceso judicial. La Administración pública paga los gastos.",
+  "subramas": [],
+  "ejemplo": "El acusado solicitó asistencia jurídica gratuita por no tener recursos suficientes.",
+  "relacionados": "Proceso judicial, Administración pública"
+ },
+ {
+  "termino": "Atenuante",
+  "definicion": "Cuando algo disminuye la gravedad de un delito.",
+  "subramas": [],
+  "ejemplo": "El juez decidió disminuir la condena por el atenuante.",
+  "relacionados": "Delito"
+ },
+ {
+  "termino": "Audiencia previa",
+  "definicion": "Es el acto que tiene como objetivo que las partes lleguen a un acuerdo antes del juicio.",
+  "subramas": [],
+  "ejemplo": "Se celebró la audiencia previa para presentar las pruebas.",
+  "relacionados": "Juicio, Parte"
+ },
+ {
+  "termino": "Audiencia provincial",
+  "definicion": "Es el juzgado que atiende los asuntos de toda la provincia.",
+  "subramas": [],
+  "ejemplo": "El caso ha llegado a la Audiencia provincial.",
+  "relacionados": "Juzgado"
+ },
+ {
+  "termino": "Auto",
+  "definicion": "Es un tipo de resolución en un procedimiento judicial. Se utiliza para asuntos de menos importancia.",
+  "subramas": [],
+  "ejemplo": "El juez dictó el auto.",
+  "relacionados": "Procedimiento judicial, Resolución"
+ },
+ {
+  "termino": "Autor / Autora",
+  "definicion": "Persona que comete un delito o ilegalidad.",
+  "subramas": [],
+  "ejemplo": "La autora del delito es su hermana.",
+  "relacionados": "Delito, Ilícito"
+ },
+ {
+  "termino": "Autorización",
+  "definicion": "Dar permiso a alguien para hacer algo.",
+  "subramas": [],
+  "ejemplo": "Mi amigo tiene autorización para entrar en mi casa cuando quiera.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Avocación",
+  "definicion": "Cuando un órgano inferior pasa un asunto a un órgano superior.",
+  "subramas": [],
+  "ejemplo": "Hacienda ha avocado el asunto.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Ayuntamiento",
+  "definicion": "Grupo de personas que se encargan de gobernar un pueblo o ciudad.",
+  "subramas": [],
+  "ejemplo": "El ayuntamiento de Donostia ha publicado el programa de fiestas.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Base militar",
+  "definicion": "Es una instalación gestionada por el ejército.",
+  "subramas": [],
+  "ejemplo": "Cerca de Burgos hay una base militar.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Beneficio",
+  "definicion": "El dinero que se gana de un negocio o empresa.",
+  "subramas": [],
+  "ejemplo": "Inditex ha conseguido más beneficios en ventas que el año pasado.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Bienes y servicios",
+  "definicion": "Es el resultado del esfuerzo de las personas para satisfacer sus necesidades.",
+  "subramas": [],
+  "ejemplo": "Un zapato es un bien. La asistencia médica es un servicio.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Bien inmueble",
+  "definicion": "Son las cosas que no se pueden mover del lugar donde se encuentran. Por ejemplo, una casa.",
+  "subramas": [],
+  "ejemplo": "Ha tenido que embargar todos sus bienes inmuebles.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Bien mueble",
+  "definicion": "Son las cosas que se pueden mover. Por ejemplo, los libros.",
+  "subramas": [],
+  "ejemplo": "Mi vecino ha vendido todos los bienes muebles de su casa.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Bien público",
+  "definicion": "Cuando un bien puede utilizarlo cualquier ciudadano en cualquier momento. Por ejemplo, los parques.",
+  "subramas": [],
+  "ejemplo": "Las playas son un bien público.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Caducidad",
+  "definicion": "Derecho Procesal: Es la fecha hasta la que un proceso es válido. Esta fecha es fija, es decir, no se puede cambiar.\n\nDerecho Civil: Cuando finaliza un derecho porque ha pasado el tiempo que tenía para ejercerlo.",
+  "subramas": [
+   "Derecho Procesal",
+   "Derecho Civil"
+  ],
+  "ejemplo": "Ya ha caducado el plazo para contestar a la demanda.\n\nHa caducado el plazo que tenía el acreedor para exigirle el pago al deudor.",
+  "relacionados": "Proceso judicial, Derecho"
+ },
+ {
+  "termino": "Capacidad",
+  "definicion": "Cuando una persona puede asumir derechos y obligaciones solo.",
+  "subramas": [],
+  "ejemplo": "Tengo la capacidad de conducir.",
+  "relacionados": "Derecho, Obligación"
+ },
+ {
+  "termino": "Capacidad de obrar",
+  "definicion": "Cuando una persona tiene la capacidad de ejercer derechos y cumplir obligaciones. De forma general, la tienen todas las personas a partir de los 18 años.",
+  "subramas": [],
+  "ejemplo": "La capacidad de obrar me permite declarar en un juicio.",
+  "relacionados": "Derecho, Obligación"
+ },
+ {
+  "termino": "Carta de los Derechos Fundamentales de la Unión Europea",
+  "definicion": "Es el documento donde están escritos los Derechos Fundamentales de la Unión Europea.",
+  "subramas": [],
+  "ejemplo": "La Carta de Derechos Fundamentales de la Unión Europea fue un gran pasó para el desarrollo de la humanidad.",
+  "relacionados": "Derechos fundamentales, Unión Europea"
+ },
+ {
+  "termino": "Casa consistorial",
+  "definicion": "Es el ayuntamiento.",
+  "subramas": [],
+  "ejemplo": "La fachada de la casa consistorial de Sevilla es muy bonita.",
+  "relacionados": "Ayuntamiento"
+ },
+ {
+  "termino": "Causahabientes",
+  "definicion": "Cuando una persona consigue los derechos de otra persona.",
+  "subramas": [],
+  "ejemplo": "Los herederos o causahabientes del obligado podrán limitarse a declarar si saben que la firma es o no de su causante.",
+  "relacionados": "Derecho"
+ },
+ {
+  "termino": "Causalidad",
+  "definicion": "Es la relación entre la causa o el motivo de algo y el efecto que tiene.",
+  "subramas": [],
+  "ejemplo": "El delito se cometió a causa de la provocación de la víctima.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Citación",
+  "definicion": "Cuando se llama a las partes para comparecer en un determinado momento.",
+  "subramas": [],
+  "ejemplo": "Con estas nuevas declaraciones, el juez da por terminados los testimonios que él mismo ha citado, si bien restan por atender a las citaciones solicitadas por el abogado de una parte.",
+  "relacionados": "Comparecencia, Parte"
+ },
+ {
+  "termino": "Ciudadanía",
+  "definicion": "Es el conjunto de personas que viven en un Estado.",
+  "subramas": [],
+  "ejemplo": "El derecho constitucional del voto ha constituido para muchas personas la condición de ciudadanía plena.",
+  "relacionados": "Estado"
+ },
+ {
+  "termino": "Código civil",
+  "definicion": "Es el libro donde están escritas las normas civiles básicas.",
+  "subramas": [],
+  "ejemplo": "El abogado se basó en varios artículos del Código civil para argumentar los hechos.",
+  "relacionados": "Norma, Derecho civil"
+ },
+ {
+  "termino": "Código de comercio",
+  "definicion": "Es el libro donde están escritas las normas mercantiles básicas.",
+  "subramas": [],
+  "ejemplo": "El abogado se basó en varios artículos del Código de comercio para argumentar los hechos.",
+  "relacionados": "Norma, Derecho mercantil"
+ },
+ {
+  "termino": "Código penal",
+  "definicion": "Es el libro donde están escritas las normas penales básicas.",
+  "subramas": [],
+  "ejemplo": "El abogado se basó en varios artículos del Código penal para argumentar los hechos.",
+  "relacionados": "Norma, Derecho penal"
+ },
+ {
+  "termino": "Cohecho",
+  "definicion": "Cuando un delito se comete contra la Administración pública.",
+  "subramas": [],
+  "ejemplo": "El vecino cometió un delito de cohecho.",
+  "relacionados": "Delito, Administración pública"
+ },
+ {
+  "termino": "Comercio",
+  "definicion": "Cuando se intercambian bienes, alimentos o servicios entre personas.",
+  "subramas": [],
+  "ejemplo": "El comercio es importante para el desarrollo de las personas.",
+  "relacionados": "Bienes y servicios"
+ },
+ {
+  "termino": "Comisión europea",
+  "definicion": "Es la parte de la Unión Europea que se encarga de los asuntos diarios. Por ejemplo, propone nueva legislación.",
+  "subramas": [],
+  "ejemplo": "La Comisión europea propuso una nueva norma.",
+  "relacionados": "Unión Europea, Legislación"
+ },
+ {
+  "termino": "Comparecencia",
+  "definicion": "Cuando una persona hace una presentación personal ante el juez.",
+  "subramas": [],
+  "ejemplo": "Las partes han comparecido ante el juez.",
+  "relacionados": "Juez"
+ },
+ {
+  "termino": "Competencia",
+  "definicion": "Es la capacidad que tiene la Administración pública para participar en un asunto.",
+  "subramas": [
+   "Derecho Administrativo"
+  ],
+  "ejemplo": "Nunca hemos puesto en duda la competencia de la Administración en esta labor.",
+  "relacionados": "Capacidad, Administración pública"
+ },
+ {
+  "termino": "Condena",
+  "definicion": "Son las condiciones que se ponen a un castigo. Por ejemplo, el tiempo que pasará en prisión.",
+  "subramas": [],
+  "ejemplo": "Cumplirá condena por homicidio.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Congreso",
+  "definicion": "Es el órgano constitucional que representa al pueblo español.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Consanguinidad",
+  "definicion": "Es la relación que tiene una persona con sus familiares de sangre o directos.",
+  "subramas": [],
+  "ejemplo": "Una madre y un hijo están relacionados por consanguinidad.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Consejo europeo",
+  "definicion": "Es la parte de la Unión Europea donde hacen reuniones los representantes de los Estados Miembros.",
+  "subramas": [],
+  "ejemplo": "El presidente de España acudió al Consejo europeo el pasado sábado.",
+  "relacionados": "Unión Europea, Estado"
+ },
+ {
+  "termino": "Constitución española",
+  "definicion": "Es el libro donde están escritas los valores básicos para regular el ordenamiento jurídico.",
+  "subramas": [],
+  "ejemplo": "La Constitución declara anticonstitucional la libre autodeterminación.",
+  "relacionados": "Ordenamiento jurídico"
+ },
+ {
+  "termino": "Contrato",
+  "definicion": "Es un acuerdo jurídico entre personas.",
+  "subramas": [],
+  "ejemplo": "Mi primo firmó el contrato de trabajo.",
+  "relacionados": "Acuerdo"
+ },
+ {
+  "termino": "Contrato de adhesión",
+  "definicion": "Contrato en el que una de las partes no decide lo que se escribe al negociar. Solo puede aceptarlo o rechazarlo. Por ejemplo, los contratos con las compañías telefónicas.",
+  "subramas": [],
+  "ejemplo": "“Vodafone me llamó para explicarme el contrato de adhesión que me ofrecían con la nueva oferta”",
+  "relacionados": "Contrato, Parte"
+ },
+ {
+  "termino": "Convenio Colectivo",
+  "definicion": "Es un acuerdo donde se encuentran escritas las condiciones de trabajo de los trabajadores.",
+  "subramas": [],
+  "ejemplo": "Los salarios se establecerán en el Convenio Colectivo.",
+  "relacionados": "Trabajadores"
+ },
+ {
+  "termino": "Convenio regulador",
+  "definicion": "Es un acuerdo entre un padre y una madre, dos padres o dos madres separadas o divorciadas, en donde se escribe cómo repartir las tareas para mantener a su hijo o hija. Por ejemplo, se puede acordar como repartir los gastos económicos.",
+  "subramas": [],
+  "ejemplo": "El juez deberá acordar las medidas del convenio regulador.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Convocatoria",
+  "definicion": "Es el anuncio de un acto.",
+  "subramas": [],
+  "ejemplo": "El ayuntamiento ha publicado una nueva convocatoria de viviendas tasadas.",
+  "relacionados": "Acto administrativo"
+ },
+ {
+  "termino": "Cosa juzgada",
+  "definicion": "Situación que se da cuando una sentencia es firme y ya no se puede poner un recurso.",
+  "subramas": [],
+  "ejemplo": "La cosa juzgada constituye una garantía fundamental de la Administración de Justicia.",
+  "relacionados": "Sentencia, Sentencia firme, Recurso"
+ },
+ {
+  "termino": "Costas procesales",
+  "definicion": "Los gastos del proceso judicial que deben pagar las personas interesadas. Por ejemplo, las notificaciones o las tasas.",
+  "subramas": [],
+  "ejemplo": "Deberá pagar las costas al haber perdido el pleito.",
+  "relacionados": "Procedimiento judicial"
+ },
+ {
+  "termino": "Culpable",
+  "definicion": "Cuando una persona tiene la culpa de un delito.",
+  "subramas": [],
+  "ejemplo": "El juez lo ha declarado culpable.",
+  "relacionados": "Delito"
+ },
+ {
+  "termino": "Custodia",
+  "definicion": "Es el deber de cuidar, educar y alimentar a una persona menor de 18 años.",
+  "subramas": [],
+  "ejemplo": "El juez otorgó la custodia al padre.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Decisión",
+  "definicion": "Es una norma jurídica que puede obligar a las personas, entidades o Estados.",
+  "subramas": [],
+  "ejemplo": "El juez decidió desestimar la demanda.",
+  "relacionados": "Estado, Norma"
+ },
+ {
+  "termino": "Decreto",
+  "definicion": "Es una decisión que toma la Administración pública.",
+  "subramas": [],
+  "ejemplo": "La Administración ha publicado un nuevo decreto.",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Defensa",
+  "definicion": "Es el abogado o abogada de la persona acusada de un delito.",
+  "subramas": [],
+  "ejemplo": "La defensa argumentó muy bien los hechos e hizo un buen trabajo.",
+  "relacionados": "Abogado o abogada, Acusado o acusada, Delito"
+ },
+ {
+  "termino": "Delito",
+  "definicion": "Es cuando una persona no cumple una norma y puede recibir un castigo grave.",
+  "subramas": [],
+  "ejemplo": "Le acusaron de un delito de robo.",
+  "relacionados": "Norma"
+ },
+ {
+  "termino": "Demanda",
+  "definicion": "Es el documento con el que una de las personas interesadas inicia el proceso judicial. Identifica a las partes demandante y demandada. En la demanda se recogen los hechos que han pasado, las normas que tienen relación con los hechos y lo que pide al juez.",
+  "subramas": [],
+  "ejemplo": "Le demandó por incumplir el contrato.",
+  "relacionados": "Proceso judicial, Interesado o interesada, Hecho jurídico, Juez, Demandante, Demandado o demandada, Demanda"
+ },
+ {
+  "termino": "Demandado / Demandada",
+  "definicion": "Cuando a una persona se le culpa de un ilícito civil.",
+  "subramas": [],
+  "ejemplo": "El demandado negó todos los hechos.",
+  "relacionados": "Ilícito"
+ },
+ {
+  "termino": "Demandante",
+  "definicion": "Cuando una persona interpone una demanda.",
+  "subramas": [],
+  "ejemplo": "El demandante aseguraba que el demandado incumplió el contrato.",
+  "relacionados": "Demanda, Interposición"
+ },
+ {
+  "termino": "Denuncia",
+  "definicion": "Cuando le contamos a la policía o a un juez lo que ha pasado para que puedan ayudar. Solamente puede interponerse cuando ocurre un delito.",
+  "subramas": [],
+  "ejemplo": "Mi vecino ha denunciado a mi prima por estafa.",
+  "relacionados": "Policía, Juez"
+ },
+ {
+  "termino": "Denunciado / Denunciada",
+  "definicion": "Cuando la denuncia se dirige a una persona.",
+  "subramas": [],
+  "ejemplo": "La denunciada negó todos los hechos que se alegaban en el juicio.",
+  "relacionados": "Denuncia"
+ },
+ {
+  "termino": "Denunciante",
+  "definicion": "Cuando una persona interpone una denuncia.",
+  "subramas": [],
+  "ejemplo": "El denunciante aseguraba que el denunciado le había robado.",
+  "relacionados": "Denuncia"
+ },
+ {
+  "termino": "Derecho",
+  "definicion": "Es el conjunto de normas que regulan los actos de las personas.",
+  "subramas": [],
+  "ejemplo": "El derecho es importante para mantener la seguridad de la ciudadanía.",
+  "relacionados": "Norma"
+ },
+ {
+  "termino": "Derecho administrativo",
+  "definicion": "Es la rama del derecho que regula a la Administraciones públicas.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Derecho de la competencia",
+  "definicion": "Es la parte del derecho que se encarga de escribir las normas para regular el comercio.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Derecho, Norma, Comercio"
+ },
+ {
+  "termino": "Derecho europeo",
+  "definicion": "Es la rama del derecho que regula la Unión Europea.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Unión Europea, Derecho"
+ },
+ {
+  "termino": "Derecho financiero",
+  "definicion": "Es la rama del derecho que estudia la actividad financiera y la Hacienda pública.",
+  "subramas": [],
+  "ejemplo": "—-",
+  "relacionados": "Derecho, Hacienda pública"
+ },
+ {
+  "termino": "Derecho privado",
+  "definicion": "Cuando las normas están escritas para relaciones entre personas y el Estado.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Norma, Estado"
+ },
+ {
+  "termino": "Derecho público",
+  "definicion": "Cuando las normas están escritas para el Estado o la Administración pública.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado, Administración pública"
+ },
+ {
+  "termino": "Derechos fundamentales",
+  "definicion": "Son los derechos que están escritos en la Carta de los Derechos Fundamentales de la Unión Europea. Son la dignidad, la libertad, la igualdad, la solidaridad, la ciudadanía y la justicia.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Carta de los, Derechos, Fundamentales de la Unión Europea, Justicia, Libertad"
+ },
+ {
+  "termino": "Deshaucio",
+  "definicion": "Cuando tienes que irte de tu casa por no pagar la hipoteca.",
+  "subramas": [],
+  "ejemplo": "Han deshauciado a mi vecina.",
+  "relacionados": "Hipoteca"
+ },
+ {
+  "termino": "Desestimar",
+  "definicion": "Cuando la Administración pública rechaza lo que pide una persona.",
+  "subramas": [],
+  "ejemplo": "Han desestimado la demanda que interpuse.",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Desfavorable",
+  "definicion": "Cuando algo es poco adecuado o saludable.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Desistimiento",
+  "definicion": "Es la decisión que toma la persona interesada de terminar con el proceso.",
+  "subramas": [],
+  "ejemplo": "He desistido el procedimiento al no tener ninguna garantía de poder ganar.",
+  "relacionados": "Interesado o interesada, Procedimiento judicial"
+ },
+ {
+  "termino": "Desviación de poder",
+  "definicion": "Cuando la Administración pública utiliza su poder para intereses personales.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Deuda",
+  "definicion": "El dinero que se debe cuando se deja de pagar una algo durante un tiempo.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Deudor / Deudora",
+  "definicion": "Es la persona que tiene que pagar una deuda.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Deuda"
+ },
+ {
+  "termino": "Devengo",
+  "definicion": "El devengo del impuesto es cuando una persona tiene la obligación de pagar a la Hacienda pública.",
+  "subramas": [
+   "Derecho Financiero y Tributario"
+  ],
+  "ejemplo": "",
+  "relacionados": "Obligación, Hacienda pública"
+ },
+ {
+  "termino": "Devengar",
+  "definicion": "Es el derecho a que te paguen por trabajar.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Derecho"
+ },
+ {
+  "termino": "Días hábiles",
+  "definicion": "Son los días de trabajo, válido para desarrollar una actividad administrativa o judicial. Los días hábiles suelen ser lunes martes, miércoles, jueves y viernes.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Judicial"
+ },
+ {
+  "termino": "Días inhábiles",
+  "definicion": "Son los sábados, domingos y festivos.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Días naturales",
+  "definicion": "Son todos los días del año.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Dictamen",
+  "definicion": "Es el juicio dicho por el juez en una sentencia.",
+  "subramas": [],
+  "ejemplo": "“El juez a dictaminado desestimar la petición de la parte demandada”",
+  "relacionados": "Juez, Sentencia, Juicio"
+ },
+ {
+  "termino": "Dictar",
+  "definicion": "Cuando el juez publica la sentencia.",
+  "subramas": [],
+  "ejemplo": "“El juez ya ha dictado sentencia”",
+  "relacionados": "Juez, Sentencia"
+ },
+ {
+  "termino": "Diligencia",
+  "definicion": "Derecho Administrativo: Es uno de los documentos que inicia un procedimiento administrativo.\n\nDerecho Procesal: Son todos los actos que pueden hacer las personas trabajadoras que ayudan al juez.\n\nDerecho Civil: La diligencia debida es la precaución que las leyes o la lógica de las personas aconseja tener para no hacer daño a otras personas.",
+  "subramas": [
+   "Derecho Administrativo",
+   "Derecho Procesal",
+   "Derecho Civil"
+  ],
+  "ejemplo": "",
+  "relacionados": "Procedimiento administrativo, Juez"
+ },
+ {
+  "termino": "Diputaciones forales",
+  "definicion": "Son las instituciones de algunas provincias que se regulan por normas especiales. Tienen diputaciones Navarra, Alava, Guipúzcoa y Vizcaya.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Norma"
+ },
+ {
+  "termino": "Diputado / Diputada",
+  "definicion": "Son las personas que representan al pueblo y se eligen con la votación de los ciudadanos.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Votación"
+ },
+ {
+  "termino": "Directiva",
+  "definicion": "Es un tipo de norma europea donde escriben recomendaciones para las normas del futuro.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Norma"
+ },
+ {
+  "termino": "Documento judicial",
+  "definicion": "Es cualquier resolución judicial. Por ejemplo, los autos o las sentencias.",
+  "subramas": [],
+  "ejemplo": "—-",
+  "relacionados": "Auto, Sentencia, Resolución"
+ },
+ {
+  "termino": "Dolo",
+  "definicion": "Es la intención de una persona de hacer algo que sabe que no es legal.",
+  "subramas": [],
+  "ejemplo": "Le incrementaron la condena al considerar que actuó con dolo.",
+  "relacionados": "Legalidad"
+ },
+ {
+  "termino": "Ejecución",
+  "definicion": "Es el procedimiento judicial para obligar a las partes a cumplir lo que dice una sentencia.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Procedimiento judicial, Sentencia"
+ },
+ {
+  "termino": "Ejecutividad",
+  "definicion": "Es la eficacia que tienen los actos administrativos cuando se dictan.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Dictar, Acto administrativo"
+ },
+ {
+  "termino": "Embargo",
+  "definicion": "Cuando la Administración pública se queda con los bienes de la persona deudora hasta que pague.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Deudor o deudora, Bienes y servicios"
+ },
+ {
+  "termino": "Encabezamiento",
+  "definicion": "Cuando la Administración pública se queda con los bienes del deudor hasta que paguen sus deudas.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Bienes y servicios, Deudor o deudora, Deuda"
+ },
+ {
+  "termino": "Entidad pública",
+  "definicion": "Son instituciones públicas que aseguran el interés público.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Interés público"
+ },
+ {
+  "termino": "Error",
+  "definicion": "Derecho procesal: Es un fallo o equivocación en el proceso.\n\nDerecho Civil: Es cuando una persona describe de forma equivocada la realidad.",
+  "subramas": [
+   "Derecho Procesal",
+   "Derecho Civil"
+  ],
+  "ejemplo": "Ha habido un error en la declaración del testigo.",
+  "relacionados": "Procedimiento judicial"
+ },
+ {
+  "termino": "Ertzaina",
+  "definicion": "Es la Fuerza y Cuerpo de Seguridad de la autonomía del País Vasco.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Fuerza y Cuerpo de Seguridad del, Estado"
+ },
+ {
+  "termino": "Estado",
+  "definicion": "Es un país.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Estados Miembros",
+  "definicion": "Son los países que forman parte de la Unión Europea.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Unión Europea"
+ },
+ {
+  "termino": "Estafa",
+  "definicion": "Delito que consiste en engañar a alguien para obtener un dinero. Puede suceder en persona u online.",
+  "subramas": [],
+  "ejemplo": "Me han estafado 3.000 euros.",
+  "relacionados": "Delito"
+ },
+ {
+  "termino": "Estimar",
+  "definicion": "Cuando la Administración pública aprueba lo que pide una persona.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Expediente",
+  "definicion": "Es el proceso que sigue la Administración pública para castigar a funcionarios, trabajadores o estudiantes por su comportamiento.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Funcionario o funcionaria, Trabajador o trabajadora"
+ },
+ {
+  "termino": "Extinción",
+  "definicion": "Es el fin de un asunto.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Fallo",
+  "definicion": "Es el apartado en la sentencia que explica la decisión final del juez. Tienen que cumplirla todas las partes.",
+  "subramas": [],
+  "ejemplo": "El fallo ha sido desfavorable para mí.",
+  "relacionados": "Juez, Parte"
+ },
+ {
+  "termino": "Falsedad documental",
+  "definicion": "Delito que consiste en falsificar un documento.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Delito"
+ },
+ {
+  "termino": "Falsificación",
+  "definicion": "Cuando se miente en el contenido de un documento.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Favorable",
+  "definicion": "Cuando algo es adecuado o saludable.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Fianza",
+  "definicion": "Dinero que pagas para asegurar que cumplirás con tus obligaciones.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Obligaciones"
+ },
+ {
+  "termino": "Firma ad referendum",
+  "definicion": "Cuando una persona representante de un Estado firma un tratado. Esta firma tiene que estar confirmada por las personas de su Estado.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado, Tratado"
+ },
+ {
+  "termino": "Firma definitiva",
+  "definicion": "Cuando se firma un tratado y de manera automática tiene efecto, sin tener que ratificar, aceptar o aprobarlo.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Tratado, Ratificación, Aceptación, Aprobación"
+ },
+ {
+  "termino": "Fiscal",
+  "definicion": "Es la persona que el Estado nombra para investigar los delitos. Defiende los intereses de la sociedad. Por ejemplo, en un juicio.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado, Delito, Juicio"
+ },
+ {
+  "termino": "Fraccionamiento de pago",
+  "definicion": "Cuando una persona paga una cantidad de dinero en distintos periodos de tiempo.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Fuentes del Derecho",
+  "definicion": "Son los diferentes tipos de normas que forman un ordenamiento jurídico.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Ordenamiento jurídico, Norma"
+ },
+ {
+  "termino": "Fuerzas y Cuerpos de Seguridad del Estado",
+  "definicion": "Son el conjunto de fuerzas de seguridad en un Estado. Mantienen la seguridad de todos los ciudadanos y ciudadanas. Algunas autonomías tienen cuerpos de seguridad propios.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Ertzaina, Guardia civil, Policía"
+ },
+ {
+  "termino": "Funcionario",
+  "definicion": "Cuando es una persona que trabaja para el Estado o la Administración pública.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Trabajador, Estado"
+ },
+ {
+  "termino": "Fundamentos jurídicos",
+  "definicion": "Son las leyes, normas y otras sentencias que usa el juez para tomar su decisión.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Ley, Norma, Sentencia, Juez"
+ },
+ {
+  "termino": "Gasto público",
+  "definicion": "Es el dinero que gasta la Administración pública por el interés general.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Interés general"
+ },
+ {
+  "termino": "Gobierno",
+  "definicion": "Es el conjunto de instituciones que controlan y administran el poder de un territorio.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Gobierno autonómico",
+  "definicion": "Es una institución que gobierna en una comunidad autónoma. Es inferior al gobierno estatal.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Gobierno"
+ },
+ {
+  "termino": "Gobierno Vasco",
+  "definicion": "Es la institución que gobierna en la Comunidad Autonómica Vasca.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Gobierno"
+ },
+ {
+  "termino": "Guardia civil",
+  "definicion": "Es el Fuerza y Cuerpo de Seguridad de todo el Estado español.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Fuerzas y Cuerpos de Seguridad del, Estado"
+ },
+ {
+  "termino": "Hacienda pública",
+  "definicion": "Es la Administración pública que se encarga del derecho tributario.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Derecho tributario, Administración pública"
+ },
+ {
+  "termino": "Hecho jurídico",
+  "definicion": "Cuando una situación de la realidad se regula en las normas del ordenamiento jurídico.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Norma, Ordenamiento jurídico"
+ },
+ {
+  "termino": "Hecho probado",
+  "definicion": "Son las situaciones y acciones que el juez considera que han pasado en realidad, y que tiene en cuenta para dictar una sentencia.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Juez, Dictar, Sentencia"
+ },
+ {
+  "termino": "Herencia",
+  "definicion": "Son las cosas que puede recibir una persona después de la muerte de otra persona.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Hipoteca",
+  "definicion": "Es un derecho para pagar un bien inmueble a plazos. Por ejemplo, una casa.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Derecho, Bien inmueble, Plazo"
+ },
+ {
+  "termino": "Ilícito",
+  "definicion": "Es lo que prohibe la ley o no deja hacer porque van en contra de la justicia y las buenas costumbres.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Ley, Justicia"
+ },
+ {
+  "termino": "Impuesto",
+  "definicion": "Cuando pagas dinero a la Hacienda pública para tener bienes públicos.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Tributo, Bienes públicos, Hacienda pública"
+ },
+ {
+  "termino": "Imputado / Imputada",
+  "definicion": "Es el acusado o la acusada de un delito.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Acusado o acusada, Delito"
+ },
+ {
+  "termino": "Incapacitación judicial",
+  "definicion": "Es el documento judicial que dice que una persona no puede actuar por sí misma. La persona incapacitada necesita a otra persona que actúe por él o ella y le proteja.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Capacidad, Judicial"
+ },
+ {
+  "termino": "Indemnización",
+  "definicion": "Es el dinero que una persona le tiene que dar a otra cuando no cumple un contrato o le causa un daño.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Contrato"
+ },
+ {
+  "termino": "Inflación",
+  "definicion": "Cuando se mide el crecimiento de los precios de los bienes y servicios durante un tiempo. De manera habitual se suele medir cada año.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Bienes y servicios"
+ },
+ {
+  "termino": "Infracción",
+  "definicion": "Cuando no se respeta una norma. Son los ilícitos de la Administración pública. No puede ser un delito.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Norma, Ilícito, Delito"
+ },
+ {
+  "termino": "Ingreso",
+  "definicion": "Es la cantidad de dinero que recibe una persona o entidad.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Inocente",
+  "definicion": "Cuando una persona no tiene culpa de cometer un delito.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Delito"
+ },
+ {
+  "termino": "Instancia de oficio",
+  "definicion": "Es el trámite por el que la Administración pública o un o una juez inicia un proceso.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Juez, Procedimiento judicial"
+ },
+ {
+  "termino": "Instancia de parte",
+  "definicion": "Es el trámite por el que una persona inicia un proceso u otra actividad jurídica.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Procedimiento judicial"
+ },
+ {
+  "termino": "Institución",
+  "definicion": "Es un grupo de personas que cumplen una función de interés público.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Interés público"
+ },
+ {
+  "termino": "Interesado / Interesada",
+  "definicion": "Cuando una persona tiene interés en un procedimiento judicial. Cuando eres interesado o interesado no puedes ser una de las partes del proceso.\n\nEs la persona a la que le afecta un asunto jurídico.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Procedimiento judicial, Parte, Jurídico"
+ },
+ {
+  "termino": "Interés del Estado",
+  "definicion": "Cuando se defienden los valores de un Estado.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado"
+ },
+ {
+  "termino": "Interés público",
+  "definicion": "Es el bien general para todas las personas de una sociedad.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Interés de demora",
+  "definicion": "Es la cantidad de dinero que tienes que pagar de más por pagar algo tarde.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Interposición",
+  "definicion": "Cuando se presenta un recurso.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Recurso"
+ },
+ {
+  "termino": "Jefe de Estado",
+  "definicion": "Es la persona que tiene la mayor autoridad en un Estado.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado"
+ },
+ {
+  "termino": "Judicial",
+  "definicion": "Es lo que está relacionado con las decisiones y actos del juez.",
+  "subramas": [],
+  "ejemplo": "El juez dictó mi sentencia judicial.",
+  "relacionados": "Juez"
+ },
+ {
+  "termino": "Juez",
+  "definicion": "Es la persona que juzga una situación. Aplica las leyes y asegura los derechos de los ciudadanos.",
+  "subramas": [],
+  "ejemplo": "El juez me declaró culpable.",
+  "relacionados": "Ley, Derecho"
+ },
+ {
+  "termino": "Juicio",
+  "definicion": "Es el proceso donde un juez valora la situación y toma una decisión.",
+  "subramas": [],
+  "ejemplo": "El juicio ha finalizado.",
+  "relacionados": "Juez, Procedimiento judicial"
+ },
+ {
+  "termino": "Juicio oral",
+  "definicion": "Es la fase de juzgamiento en un procedimiento judicial. Se presentan las pruebas del delito.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Procedimiento, Juzgar, Delito"
+ },
+ {
+  "termino": "Jurídico",
+  "definicion": "Todo lo que está relacionado con las leyes y el Derecho.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Ley, Derecho"
+ },
+ {
+  "termino": "Jurisdicción",
+  "definicion": "Es el poder de aplicar el derecho de acuerdo a las normas.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Derecho, Normas"
+ },
+ {
+  "termino": "Justicia",
+  "definicion": "Valor en la que se basan todas las normas jurídicas.",
+  "subramas": [],
+  "ejemplo": "Se hizo justicia cuando se detuvo al asesino.",
+  "relacionados": "Norma"
+ },
+ {
+  "termino": "Juzgado",
+  "definicion": "Es la sitio donde se celebra un juicio. La palabra juzgado también se utiliza para decir juez. Por ejemplo, el juzgado dicta sentencia es lo mismo que decir que el juez dicta sentencia.",
+  "subramas": [],
+  "ejemplo": "Tenemos que ir al juzgado como testigos.",
+  "relacionados": "Juicio, Juez, Sentencia"
+ },
+ {
+  "termino": "Juzgado de Instrucción",
+  "definicion": "Es el juzgado donde se investiga un delito cometido.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Juzgado, Delito"
+ },
+ {
+  "termino": "Legalidad",
+  "definicion": "Es uno de los valores del ordenamiento jurídico que dice que las normas hay que aplicarlas de acuerdo a la jurisdicción.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Ordenamiento jurídico, Jurisdicción"
+ },
+ {
+  "termino": "Legislación",
+  "definicion": "Es el ordenamiento jurídico.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Ordenamiento jurídico"
+ },
+ {
+  "termino": "Legítima",
+  "definicion": "Es una parte de la herencia que hay que repartir siempre entre familiares.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Herencia"
+ },
+ {
+  "termino": "Legitimación",
+  "definicion": "Es la capacidad para participar en un proceso porque la persona cumple las condiciones necesarias.",
+  "subramas": [],
+  "ejemplo": "Estaba legitimado para reclamar sus propiedades.",
+  "relacionados": "Capacidad, Procedimiento judicial"
+ },
+ {
+  "termino": "Legitimación activa",
+  "definicion": "Cuando eres la persona demandante o denunciante.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Demandante, Denunciante"
+ },
+ {
+  "termino": "Legitimación pasiva",
+  "definicion": "Cuando eres la persona demandada o denunciada.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Demandado o demandada, Denunciado o denunciada"
+ },
+ {
+  "termino": "Ley",
+  "definicion": "Es un tipo de norma que regula las relaciones sociales. Tiene más fuerza que las normas reglamentarias.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Ley ordinaria, Ley orgánica"
+ },
+ {
+  "termino": "Ley ordinaria",
+  "definicion": "Es un tipo de ley para regular cosas generales. Se decide en el Parlamento y Senado.",
+  "subramas": [],
+  "ejemplo": "El Parlamento aprobó la ley ordinaria.",
+  "relacionados": "Ley, Parlamento, Senado, Ley orgánica"
+ },
+ {
+  "termino": "Ley orgánica",
+  "definicion": "Es un tipo de ley que para regular cosas concretas. Se decide en el Parlamento.",
+  "subramas": [],
+  "ejemplo": "El Parlamento aprobó la ley orgánica.",
+  "relacionados": "Ley, Parlamento, Senado, Ley ordinaria"
+ },
+ {
+  "termino": "Libertad",
+  "definicion": "Es el poder que tiene cada persona para elegir entre todas la opciones que se presenten.",
+  "subramas": [],
+  "ejemplo": "Mi hermano tuvo libertad para decidir su futuro.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Lícito",
+  "definicion": "Es lo que no prohibe la ley o deja hacer porque respeta la justicia y las buenas costumbres.",
+  "subramas": [],
+  "ejemplo": "Es lícito beber alcohol si tienes más de 18 años.",
+  "relacionados": "Ley"
+ },
+ {
+  "termino": "Litigante",
+  "definicion": "Es la persona que se enfrenta a un juicio.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Juicio"
+ },
+ {
+  "termino": "Liquidación",
+  "definicion": "Cuando hay que pagar una cantidad de dinero a la Administración pública.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Liquidez",
+  "definicion": "Cuando una empresa puede convertir su activo en dinero sin perder valor.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Activo"
+ },
+ {
+  "termino": "Mala fe",
+  "definicion": "Cuando una persona actúa con malas intenciones.",
+  "subramas": [],
+  "ejemplo": "El demandado actuó con mala fe.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Mayoría de edad",
+  "definicion": "Cuando una persona alcanza la edad adulta al cumplir 18 años. Consigue la plena capacidad de obrar.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Capacidad de obrar"
+ },
+ {
+  "termino": "Medida cautelar",
+  "definicion": "Es la decisión que toma un o una juez para asegurar que no ocurre otro delito o infracción antes de dictar sentencia.",
+  "subramas": [],
+  "ejemplo": "El juez adopto medidas cautelares para que no ocurriera ninguna agresión más entre las partes.",
+  "relacionados": "Juez, Sentencia, Delito, Infracción"
+ },
+ {
+  "termino": "Ministerio Fiscal",
+  "definicion": "Es el que se encarga de proteger los derechos de los ciudadanos y el interés general.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Derecho, Interes general"
+ },
+ {
+  "termino": "Minuta",
+  "definicion": "Es el documento donde aparece el precio que tienen que pagar los clientes por el trabajo del abogado o abogada.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Abogado o abogada"
+ },
+ {
+  "termino": "Moción",
+  "definicion": "Cuando un grupo de parlamentarios y parlamentarias presenta una propuesta en el Congreso o Senado.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Parlamentario o parlamentaria, Congreso, Senado"
+ },
+ {
+  "termino": "Monarquía parlamentaria",
+  "definicion": "Es una de las maneras de organización que puede tener un territorio. Está formada por un Rey y un Parlamento.",
+  "subramas": [],
+  "ejemplo": "España es una monarquía parlamentaria.",
+  "relacionados": "Rey, Parlamento"
+ },
+ {
+  "termino": "Morada",
+  "definicion": "Es una casa u hogar.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Multa",
+  "definicion": "Cuando se castiga de manera económica a una persona por cometer un delito o infracción.",
+  "subramas": [],
+  "ejemplo": "Me han puesto una multa de tráfico por saltarme el stop.",
+  "relacionados": "Delito, Infracción"
+ },
+ {
+  "termino": "Negocio jurídico",
+  "definicion": "Es un contrato.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Contrato"
+ },
+ {
+  "termino": "Norma",
+  "definicion": "Es una regla jurídica. Hay de distintos tipos como por ejemplo la ley ordinaria o el reglamento.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Jurídico, Ley ordinaria, Reglamento"
+ },
+ {
+  "termino": "Norma reglamentaria",
+  "definicion": "Cuando la norma la escribe y publica el Gobierno y la Administración pública.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Gobierno, Administración pública"
+ },
+ {
+  "termino": "Notificación",
+  "definicion": "Cuando avisan a una persona de un asunto judicial o administrativo. Por ejemplo, la decisión de un juez.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Procedimiento judicial, Procedimiento administrativo, Juez"
+ },
+ {
+  "termino": "Nulo",
+  "definicion": "Cuando un acto no vale porque falta un elemento importante.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Acto jurídico, Acto administrativo"
+ },
+ {
+  "termino": "Obligación",
+  "definicion": "Cuando se le exige a una persona a hacer algo. Puede ser por alguna norma o contrato.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Norma, Contrato"
+ },
+ {
+  "termino": "Ordenamiento jurídico",
+  "definicion": "Es el conjunto de normas jurídicas.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Jurídico"
+ },
+ {
+  "termino": "Órgano judicial",
+  "definicion": "Es cualquier institución que regula la aplicación de la justicia en la sociedad. Por ejemplo, los juzgados.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Justicia, Juzgado, Institución"
+ },
+ {
+  "termino": "Parlamentario / Parlamentaria",
+  "definicion": "Es el funcionario o funcionaria que trabaja para el Congreso o el Senado.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Parlamento, Congreso, Senado"
+ },
+ {
+  "termino": "Parlamento",
+  "definicion": "Es la institución política que elabora, reforma y aprueba leyes.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Parlamentario o parlamentaria, Congreso, Senado, Ley"
+ },
+ {
+  "termino": "Parlamento europeo",
+  "definicion": "Es una parte de la Unión Europea donde se decide la legislación y los asuntos económicos.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Unión Europea, Legislación"
+ },
+ {
+  "termino": "Parte",
+  "definicion": "Es la persona o entidad que toma parte en un proceso.",
+  "subramas": [],
+  "ejemplo": "La parte demandante alegaba un incumplimiento de contrato.",
+  "relacionados": "Procedimiento judicial, Procedimiento administrativo"
+ },
+ {
+  "termino": "Pasivo",
+  "definicion": "Cuando una empresa tiene que pagar las deudas del pasado.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Deuda"
+ },
+ {
+  "termino": "Periodo ejecutivo",
+  "definicion": "Cuando la Administración pública puede tomar decisiones.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Periodo voluntario",
+  "definicion": "Es el tiempo para que el deudor o deudora pague por sí mismo.",
+  "subramas": [],
+  "ejemplo": "—-",
+  "relacionados": "Deudor o deudora"
+ },
+ {
+  "termino": "Plazo",
+  "definicion": "Es el tiempo que se tiene para realizar un acto jurídico.",
+  "subramas": [],
+  "ejemplo": "Presentó el escrito fuera de plazo.",
+  "relacionados": "Acto jurídico"
+ },
+ {
+  "termino": "Pleito",
+  "definicion": "Es un juicio.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Juicio"
+ },
+ {
+  "termino": "Pliego de Cláusulas Administrativas",
+  "definicion": "Es el documento donde están las condiciones de un contrato administrativo.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Contrato"
+ },
+ {
+  "termino": "Poder judicial",
+  "definicion": "Son todas las instituciones que regulan la aplicación de la justicia en la sociedad. Por ejemplo, los juzgados.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Justicia"
+ },
+ {
+  "termino": "Policía",
+  "definicion": "Es el Fuerza y Cuerpo de Seguridad de todo el Estado español.",
+  "subramas": [],
+  "ejemplo": "El policía arrestó al agresor.",
+  "relacionados": "Fuerza y Cuerpo de Seguridad del, Estado"
+ },
+ {
+  "termino": "Potestad reglamentaria",
+  "definicion": "Cuando las Administraciones públicas crean normas con rango reglamentario.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Rango reglamentario, Norma"
+ },
+ {
+  "termino": "Preclusión",
+  "definicion": "Cuando ya no puedes realizar una acción en un juicio.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Juicio"
+ },
+ {
+  "termino": "Premoriencia",
+  "definicion": "Cuando una persona muere antes que otra. Suele utilizarse entre padres y madres e hijos e hijas.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Prescripción",
+  "definicion": "Cuando un proceso ya no es válido. La fecha puede cambiar si hacemos algo en el proceso.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Procedimiento judicial"
+ },
+ {
+  "termino": "Prisión",
+  "definicion": "Es la cárcel.",
+  "subramas": [],
+  "ejemplo": "Mi hermano lleva en prisión 11 años por asesinato.",
+  "relacionados": ""
+ },
+ {
+  "termino": "Procedimiento administrativo",
+  "definicion": "Cuando la Administración pública inicia algunos actos con un objetivo concreto.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Procedimiento judicial",
+  "definicion": "Cuando el poder judicial inicia algunos actos con un objetivo concreto. Por ejemplo, dictar sentencia.",
+  "subramas": [],
+  "ejemplo": "—-",
+  "relacionados": "Poder judicial"
+ },
+ {
+  "termino": "Proceso",
+  "definicion": "Son todos los actos y trámites que se hacen en un juzgado o la Administración pública.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Juzgado, Administración pública"
+ },
+ {
+  "termino": "Procurador / Procuradora",
+  "definicion": "Es la persona que representa a una parte en un juicio.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Juicio"
+ },
+ {
+  "termino": "Pronto pago",
+  "definicion": "Cuando el deudor o la deudora puede pagar antes lo que debe. Por ejemplo, pagar antes una multa de tráfico.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Deudor o deudora"
+ },
+ {
+  "termino": "Proposición de Ley",
+  "definicion": "Propuesta del Parlamento para escribir una ley.",
+  "subramas": [],
+  "ejemplo": "El Parlamento ha presentado una proposición de ley.",
+  "relacionados": "Parlamento, Ley"
+ },
+ {
+  "termino": "Providencia de apremio",
+  "definicion": "Cuando la Administración pública se queda con las cosas del deudor o deudora.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Deudor o deudora"
+ },
+ {
+  "termino": "Proyecto de Ley",
+  "definicion": "Propuesta del gobierno para el Parlamento para escribir una ley.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Parlamento, Ley"
+ },
+ {
+  "termino": "Prueba",
+  "definicion": "Es la evidencia de que se ha cometido un delito o infracción.",
+  "subramas": [],
+  "ejemplo": "En la Audiencia Previa se presentarán las pruebas que se consideren necesarias por las partes.",
+  "relacionados": "Delito, Infracción"
+ },
+ {
+  "termino": "Querella",
+  "definicion": "Es una manera de iniciar un procedimiento judicial por un delito.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Procedimiento judicial, Delito"
+ },
+ {
+  "termino": "Ratificación",
+  "definicion": "Cuando un Estado acepta obligarse por un tratado.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado, Tratado"
+ },
+ {
+  "termino": "Rango reglamentario",
+  "definicion": "Son el tipo de normas con menos fuerza que la ley. Por ejemplo, reglamentos o instrucciones.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Ley, Norma"
+ },
+ {
+  "termino": "Real decreto",
+  "definicion": "Es una tipo de norma reglamentaria a nivel estatal.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Norma, Rango reglamentario, Norma reglamentaria"
+ },
+ {
+  "termino": "Rebeldía",
+  "definicion": "Cuando una persona tiene que comparecer en un plazo y no lo hace.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Comparecencia, Plazo"
+ },
+ {
+  "termino": "Recargo de apremio",
+  "definicion": "Cuando la Administración pública pide más dinero al deudor o la deudora por no pagar en periodo voluntario.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Deudor o deudora"
+ },
+ {
+  "termino": "Recargo ejecutivo",
+  "definicion": "Cuando la Administración pública pide más dinero al deudor o la deudora por estar en periodo ejecutivo.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Deudor o deudora, Periodo ejecutivo"
+ },
+ {
+  "termino": "Reclamación",
+  "definicion": "Cuando se acude a una institución jurídica para reconocer un derecho.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Institución, Derecho"
+ },
+ {
+  "termino": "Reclamación económico-administrativa",
+  "definicion": "Cuando una persona pide a la Administración pública que revise algunos actos relacionados con los impuestos.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Impuesto"
+ },
+ {
+  "termino": "Recomendación",
+  "definicion": "Es un tipo de norma que permite que las partes de la Unión Europea den su opinión.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Norma, Unión Europea"
+ },
+ {
+  "termino": "Recurso",
+  "definicion": "Es la manera de responder a una decisión judicial o administrativa.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Procedimiento judicial, Procedimiento administrativo"
+ },
+ {
+  "termino": "Recurso contencioso-administrativo",
+  "definicion": "Es el último recurso que se puede utilizar contra una decisión de la Administración pública.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Recurso"
+ },
+ {
+  "termino": "Reglamento",
+  "definicion": "Conceptos generales: Es el tipo de norma que regula un servicio o una actividad de un grupo de personas.\n\nDerecho Internacional: Es un tipo de norma que se aplica de manera directa en los Estados Miembros.",
+  "subramas": [
+   "Derecho Internacional Público"
+  ],
+  "ejemplo": "",
+  "relacionados": "Estados Miembros, Norma"
+ },
+ {
+  "termino": "Representante",
+  "definicion": "Cuando una persona actúa por otra de manera jurídica.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Jurídico"
+ },
+ {
+  "termino": "Rescindible",
+  "definicion": "Cuando un acto deja de valer porque perjudica a una persona del proceso.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Procedimiento judicial, Procedimiento administrativo"
+ },
+ {
+  "termino": "Rescisión",
+  "definicion": "Cuando se deja sin efecto a un contrato o acto jurídico.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Contrato, Jurídico"
+ },
+ {
+  "termino": "Reserva de Ley",
+  "definicion": "Es el conjunto de temas sociales que se pueden regular mediante nuevas normas.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Norma"
+ },
+ {
+  "termino": "Resolución",
+  "definicion": "Cuando la Administración pública decide sobre un asunto.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Requerimiento",
+  "definicion": "Cuando un acto judicial obliga a hacer o no hacer algo.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Acto judicial, Obligación"
+ },
+ {
+  "termino": "Revisión",
+  "definicion": "Cuando se hace una nueva consideración de un asunto jurídico.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Jurídico"
+ },
+ {
+  "termino": "Rey",
+  "definicion": "Persona que representa a un Estado y sus ciudadanos y ciudadanas.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado, Ciudadanía"
+ },
+ {
+  "termino": "Senado",
+  "definicion": "Es una de las partes del Parlamento.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Parlamento"
+ },
+ {
+  "termino": "Senador",
+  "definicion": "Es la persona que ha sido elegida para formar parte del Senado.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Senado"
+ },
+ {
+  "termino": "Sentencia",
+  "definicion": "Cuando un juez decide sobre un asunto.",
+  "subramas": [],
+  "ejemplo": "La sentencia dictaminó desestimar la demanda.",
+  "relacionados": "Juez"
+ },
+ {
+  "termino": "Sentencia desestimatoria",
+  "definicion": "Cuando el juez rechaza lo que pedía la persona demandante.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Juez, Demandante"
+ },
+ {
+  "termino": "Sentencia estimatoria",
+  "definicion": "Cuando el juez aprueba la petición de la demanda.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Juez, Demanda"
+ },
+ {
+  "termino": "Sentencia firme",
+  "definicion": "Cuando no se puede interponer un recurso después de dictar sentencia.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Interposición, Recurso, Dictar, Sentencia"
+ },
+ {
+  "termino": "Sentencia no firme",
+  "definicion": "Cuando se puede interponer un recurso después de dictar sentencia.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Interposición, Recurso, Dictar, Sentencia"
+ },
+ {
+  "termino": "Sesión plenaria",
+  "definicion": "Cuando un grupo de parlamentarios y parlamentarias se reúnen para hablar de asuntos jurídicos.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Parlamentario o parlamentaria, Jurídico"
+ },
+ {
+  "termino": "Silencio administrativo",
+  "definicion": "Cuando la Administración pública no responde a un asunto. Puede ser un silencio positivo o negativo.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Silencio administrativo positivo",
+  "definicion": "Cuando la Administración pública no responde a un asunto pero se asume que la respuesta es positiva.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Silencio administrativo negativo",
+  "definicion": "Cuando la Administración pública no responde a un asunto pero se asume que la respuesta es negativa.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Sobreseimiento",
+  "definicion": "Cuando se termina un proceso penal porque no hay pruebas suficientes.",
+  "subramas": [],
+  "ejemplo": "Se ha sobreseído el caso al no tener las pruebas suficientes para inculpar al acusado.",
+  "relacionados": "Procedimiento judicial, Derecho penal, Prueba"
+ },
+ {
+  "termino": "Socio o socia",
+  "definicion": "Es el miembro de una empresa. Asume las responsabilidades legales de la empresa.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Solicitud administrativa",
+  "definicion": "Cuando una persona envía una petición a la Administración pública.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública"
+ },
+ {
+  "termino": "Subasta pública",
+  "definicion": "Cuando se vende una cosa sin un precio inicial. La cosa se vende al comprador que más dinero pague.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Subvención",
+  "definicion": "Cuando la Administración pública ayuda con dinero a una persona o entidad. El dinero tiene que utilizarse para una actividad pública.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Administración pública, Interés general"
+ },
+ {
+  "termino": "Sucesión",
+  "definicion": "Cuando se transmiten derechos y obligaciones al morir una persona.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Derecho, Obligación"
+ },
+ {
+  "termino": "Suspensión",
+  "definicion": "Cuando se para un proceso de manera temporal.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Procedimiento judicial, Procedimiento administrativo"
+ },
+ {
+  "termino": "Target costing",
+  "definicion": "Es el máximo valor que puede tener un producto.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Tasas",
+  "definicion": "Es un tipo de tributo que tiene que pagar una persona para utilizar un servicio público de dominio privado. Por ejemplo, la recogida de basuras en los pueblos y ciudades.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Tributo"
+ },
+ {
+  "termino": "Tentativa",
+  "definicion": "Delito que no ha llegado a producirse de forma total.",
+  "subramas": [],
+  "ejemplo": "Al final el juez consideró que había cometido un delito de tentativa.",
+  "relacionados": "Delito"
+ },
+ {
+  "termino": "Testamento",
+  "definicion": "Es el documento donde una persona escribe como repartirá sus bienes cuando muera.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Bienes y servicios"
+ },
+ {
+  "termino": "Testigo",
+  "definicion": "Persona que declara en el juicio lo que vio cuando pasó un delito, ilícito o infracción.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Juicio, Delito, Ilícito, Infracción"
+ },
+ {
+  "termino": "Trabajador / Trabajadora",
+  "definicion": "Cuando una persona recibe una cantidad de dinero por cumplir unas obligaciones.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Tratado",
+  "definicion": "Es el documento donde se escribe un acuerdo político, económico y social entre distintos Estados.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado"
+ },
+ {
+  "termino": "Tratado bilateral",
+  "definicion": "Cuando un tratado es celebrado por dos Estados.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Tratado, Estado"
+ },
+ {
+  "termino": "Tratado de Funcionamiento de la Unión Europea (TFUE)",
+  "definicion": "Es el tratado donde se establece como funciona la Unión Europea y las competencias.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Unión Europea, Tratado"
+ },
+ {
+  "termino": "Tratado de la Unión Europea",
+  "definicion": "Es un acuerdo europeo entre los Estados Miembros.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado Miembros"
+ },
+ {
+  "termino": "Tratado multilateral",
+  "definicion": "Cuando un tratado es celebrado entre tres o más Estados.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado, Tratado"
+ },
+ {
+  "termino": "Tributo",
+  "definicion": "Es el conjunto de distintos pagos al Estado. Por ejemplo, los impuestos o las tasas.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado, Impuesto, Tasas"
+ },
+ {
+  "termino": "Tutela",
+  "definicion": "Es el poder que se tiene sobre una persona para protegerla.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ },
+ {
+  "termino": "Unión Europea",
+  "definicion": "Es una asociación política y económica formada por 27 Estados.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Estado, Estados Miembros"
+ },
+ {
+  "termino": "Uso público",
+  "definicion": "Cuando las personas utilizan bienes públicos. Por ejemplo, las playas.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Bien público"
+ },
+ {
+  "termino": "Vía administrativa",
+  "definicion": "Es el proceso donde una de las partes es siempre la Administración pública.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": "Parte, Administración pública"
+ },
+ {
+  "termino": "Víctima",
+  "definicion": "Es la persona que sufre el daño de un delito.",
+  "subramas": [],
+  "ejemplo": "La víctima prefirió no publicar sus datos personales.",
+  "relacionados": "Delito"
+ },
+ {
+  "termino": "Votación",
+  "definicion": "Es un método para tomar decisiones de manera conjunta. Se utiliza de manera habitual en el Parlamento.",
+  "subramas": [],
+  "ejemplo": "",
+  "relacionados": ""
+ }
+]
