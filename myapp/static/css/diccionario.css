@@ -61,13 +61,13 @@
   border: 2px solid #D5DCE6;
   border-radius: 0.6rem;
   background: white;
-  color: #14213D;
+  color: #143D24;
   font-size: 1.1rem;
 }
 
 .filtro-activo { 
-  border-color: #14213D; 
-  background: #14213D; 
+  border-color: #143D24; 
+  background: #143D24; 
   color: #FFFFFF; 
   font-weight: 700; 
 }
@@ -93,13 +93,13 @@
   border: 2px solid #D5DCE6;
   border-radius: 0.5rem;
   background: #FFFFFF;
-  color: #14213D;
+  color: #143D24;
   font-weight: 700;
 }
 
 .letra-activa { 
-  border-color: #1E4FA3; 
-  background: #1E4FA3; 
+  border-color: #1E7A3C; 
+  background: #1E7A3C; 
   color: white; 
 }
 .letra-activa:hover { 
@@ -164,8 +164,8 @@
 }
 
 .etiqueta-publico { 
-  background: #DCE7F8; 
-  color: #14366F; 
+  background: #DCF8E7; 
+  color: #145A2C; 
 }
 
 .etiqueta-privado { 
@@ -196,12 +196,12 @@
 .barra-diccionario .btn-add-palabra {
     padding: 10px 18px;
     color: white;
-    background-color: #1E4FA3;
+    background-color: #1E7A3C;
     border: 0;
     border-radius: 4px;
     text-decoration: none;
 }
 
 .barra-diccionario .btn-add-palabra:hover {
-    background-color: #14366F;
+    background-color: #145A2C;
 }

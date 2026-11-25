@@ -11,8 +11,8 @@
   justify-content: center;
   aspect-ratio: 16 / 10;
   border-radius: 1rem;
-  background: #DCE7F8;
-  color: #1E4FA3;
+  background: #DCF8E7;
+  color: #1E7A3C;
 }
 
 .recurso__imagen-privado { 
@@ -22,7 +22,7 @@
 
 .recurso__imagen-infografia { 
   background: #FFF6D6; 
-  color: #14213D; 
+  color: #143D24; 
 }
 
 .recurso__play {
@@ -41,7 +41,7 @@
   left: 0.75rem;
   padding: 0.2rem 0.6rem;
   border-radius: 0.4rem;
-  background: #14213D;
+  background: #143D24;
   color: white;
   font-size: 0.95rem;
   font-weight: 700;
@@ -69,14 +69,14 @@
   align-items: center;
   min-height: 2.75rem;
   padding: 0 1.1rem;
-  border: 2px solid #14213D;
+  border: 2px solid #143D24;
   border-radius: 62rem;
-  color: #14213D;
+  color: #143D24;
   font-size: 1.1rem;
 }
 
 .pastilla-activa { 
-  background: #14213D; 
+  background: #143D24; 
   color: #FFFFFF; 
   font-weight: 700; 
 }
@@ -84,4 +84,3 @@
 .pastilla-activa:hover { 
   color: white; 
 }
-

@@ -1,4 +1,4 @@
-.portada { background: #EEF3FB; }
+.portada { background: #E8F5EE; }
 
 .portada__fila {
   display: flex;
@@ -51,11 +51,11 @@
   border: 1px solid #D5DCE6;
   border-radius: 62rem;
   background: white;
-  color: #14213D;
+  color: #143D24;
   font-size: 1.05rem;
 }
 
-.chip:hover { border-color: #14213D; }
+.chip:hover { border-color: #143D24; }
 
 /* Tarjetas de la portada */
 .tarjeta {
@@ -66,11 +66,11 @@
   border: 2px solid #D5DCE6;
   border-radius: 1.25rem;
   background: #FFFFFF;
-  color: #14213D;
+  color: #143D24;
 }
 
 .tarjeta:hover { 
-  border-color: #14213D; color: #14213D; 
+  border-color: #143D24; color: #143D24; 
 }
 
 .tarjeta__icono {
@@ -80,7 +80,7 @@
   width: 4rem;
   height: 4rem;
   border-radius: 1rem;
-  color: #14213D;
+  color: #143D24;
 }
 
 .tarjeta__icono-amarillo { 
@@ -88,7 +88,7 @@
 }
 
 .tarjeta__icono-azul { 
-  background: #DCE7F8; 
+  background: #DCF8E7; 
 }
 
 .tarjeta__icono-naranja { 
@@ -100,7 +100,7 @@
 }
 
 .tarjeta__enlace { 
-  margin-top: auto; color: #1E4FA3; font-weight: 700; 
+  margin-top: auto; color: #1E7A3C; font-weight: 700; 
 }
 
 /* Llamada a la acción */
@@ -111,7 +111,7 @@
   justify-content: space-between;
   gap: 1.5rem;
   padding: 2.5rem;
-  border: 2px solid #14213D;
+  border: 2px solid #143D24;
   border-radius: 1.5rem;
 }
 

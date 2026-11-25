@@ -14,7 +14,7 @@
 }
 
 .bloque-tipo-publico { 
-  background: #1E4FA3; color: #FFFFFF; 
+  background: #1E7A3C; color: #FFFFFF; 
 }
 .bloque-tipo-publico a { 
   color: #FFFFFF; 
@@ -42,7 +42,7 @@
 }
 
 .subtitulo-marca-publico::before { 
-  background: #1E4FA3; 
+  background: #1E7A3C; 
 }
 
 .subtitulo-marca-privado::before { 
@@ -61,7 +61,7 @@
 }
 
 .ficha__titulo a { 
-  color: #14213D; 
+  color: #143D24; 
 }
 
 .ficha__texto { 
