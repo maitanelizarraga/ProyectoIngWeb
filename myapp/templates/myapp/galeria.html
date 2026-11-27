@@ -15,32 +15,31 @@
         <h2>Galería de contenidos</h2>
         <p class="secundario">Vídeos e infografías para entender el Derecho.</p>
       </div>
-      <a class="boton boton-secundario" href="/galeria/">Ver toda la galería</a>
     </div>
     <div class="grid grid-3">
       <article class="recurso">
-        <div class="recurso__imagen recurso__imagen-video">
-          <span class="etiqueta-oscura">Vídeo · 0:29</span>
-          <span class="recurso__play"><img src="{% static 'img/play-azul.svg' %}" alt="" width="26" height="26"></span>
-        </div>
-        <h3 class="recurso__titulo">¿Para qué sirve el Derecho público?</h3>
-        <p class="recurso__texto">Vídeo corto con las ramas del Derecho público.</p>
+        <video class="recurso__video" controls width="320">
+          <source src="{% static 'videos/adaptacion-ley.mp4' %}" type="video/mp4">
+          Tu navegador no puede reproducir este vídeo.
+        </video>
+        <h3 class="recurso__titulo">Adaptación de Leyes</h3>
+        <p class="recurso__texto">Vídeo con explicación de leyes de forma adaptada.</p>
       </article>
       <article class="recurso">
-        <div class="recurso__imagen recurso__imagen-video recurso__imagen-privado">
-          <span class="etiqueta-oscura">Vídeo · 0:17</span>
-          <span class="recurso__play"><img src="{% static 'img/play-naranja.svg' %}" alt="" width="26" height="26"></span>
-        </div>
-        <h3 class="recurso__titulo">¿Para qué sirve el Derecho privado?</h3>
-        <p class="recurso__texto">Vídeo corto con las ramas del Derecho privado.</p>
+        <video class="recurso__video" controls width="320">
+          <source src="{% static 'videos/contratos-trabajo.mp4' %}" type="video/mp4">
+          Tu navegador no puede reproducir este vídeo.
+        </video>
+        <h3 class="recurso__titulo">Contratos de Trabajo</h3>
+        <p class="recurso__texto">Vídeo corto con explicación sobre contratos de trabajo.</p>
       </article>
       <article class="recurso">
         <div class="recurso__imagen recurso__imagen-infografia">
-          <span class="etiqueta-oscura">Infografía</span>
-          <img src="{% static 'img/icono-infografia.svg' %}" alt="" width="48" height="48">
+          <span class="etiqueta-oscura">Decálogo</span>
+          <img src="{% static 'img/decalogo.png' %}" alt="" width="140" height="140">
         </div>
         <h3 class="recurso__titulo">Decálogo de las ramas del Derecho</h3>
-        <p class="recurso__texto">Infografía que resume todas las ramas con imágenes.</p>
+        <p class="recurso__texto">Decálogo que resume y explica con imágenes las diferentes ramas del Derecho. </p>
       </article>
     </div>
   </section>

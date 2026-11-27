@@ -8,31 +8,26 @@
 {% block title %}Diccionario - Derecho jurídico{% endblock %}
 {% block content %}
     <section id="motivacion" class="contenedor motivacion">
-        <h1>Diccionario jurídico en lenguaje claro</h1>
-        
-
-
+        <h1 id="pagina-diccionario">Diccionario jurídico en lenguaje claro</h1>
 
         <p>Explicaciones de términos legales</p>
 
         <div class="barra-diccionario">
             <form action="{% url 'diccionario' %}" method="get">
-            <label for="buscar">Buscar término:</label>
-            <input
-                type="search"
-                id="buscar"
-                name="q"
-                value="{{ consulta }}"
-                placeholder="Escribe una palabra">
-            <button type="submit">Buscar</button>
+                <label for="buscar">Buscar término:</label>
+                <input
+                    type="search"
+                    id="buscar"
+                    name="q"
+                    value="{{ consulta }}"
+                    placeholder="Escribe una palabra">
+                <button type="submit">Buscar</button>
             </form>
 
             <a href="{% url 'addPalabra' %}" class="btn-add-palabra">
                 + Añadir palabra
             </a>
-            
         </div>
-        
 
         <div class="barra-diccionario">
             <form action="{% url 'diccionario' %}" method="get">
@@ -49,15 +44,33 @@
 
         {% if grupos %}
             {% for grupo in grupos %}
-                <h2 class="letra-diccionario">{{ grupo.letra }}</h2>
-                <ul>
-                    {% for termino in grupo.terminos %}
-                        <li>
-                            <a href="{% url 'detalle_termino' termino.id %}">{{ termino.termino }}</a>
-                            <p>{{ termino.definicion|truncatewords:30 }}</p>
-                        </li>
-                    {% endfor %}
-                </ul>
+                <div class="grupo-letra">
+                    <h2 class="letra-diccionario">{{ grupo.letra }}</h2>
+                    <ul>
+                        {% for termino in grupo.terminos %}
+                            <li class="{% if termino.termino_eu %}{% if termino.definicion %}{% else %}solo-eu{% endif %}{% else %}solo-es{% endif %}">
+                                <a href="{% url 'detalle_termino' termino.id %}">
+                                    {% if termino.termino_eu %}
+                                        <span class="texto-es">{{ termino.termino }}</span>
+                                        <span class="texto-eu" lang="eu">{{ termino.termino_eu }} ({{ termino.termino }})</span>
+                                    {% else %}
+                                        {{ termino.termino }}
+                                    {% endif %}
+                                </a>
+                                {% if termino.definicion_eu %}
+                                    {% if termino.definicion %}
+                                        <p class="texto-es">{{ termino.definicion|truncatewords:30 }}</p>
+                                        <p class="texto-eu" lang="eu">{{ termino.definicion_eu|truncatewords:30 }}</p>
+                                    {% else %}
+                                        <p class="texto-eu" lang="eu">{{ termino.definicion_eu|truncatewords:30 }}</p>
+                                    {% endif %}
+                                {% else %}
+                                    <p>{{ termino.definicion|truncatewords:30 }}</p>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
             {% endfor %}
         {% else %}
             {% if consulta %}

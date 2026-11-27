@@ -1,0 +1,709 @@
+[
+ {
+  "termino": "Juicio oral",
+  "termino_eu": "Ahozko judizioa",
+  "definicion_eu": "Prozedura judizial baten epaitzeko fasea da. Delituaren frogak aurkezten dira.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Legea"
+ },
+ {
+  "termino": "Norma",
+  "termino_eu": "Araua",
+  "definicion_eu": "Arau juridiko bat da. Mota desberdinak daude, hala nola, lege arrunta edo araudia.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Juridikoa, Lege arrunta, Araudia"
+ },
+ {
+  "termino": "Abogado / Abogada",
+  "termino_eu": "Abokatua",
+  "definicion_eu": "Gai juridiko batean interesa duten pertsonei defendatzen eta laguntzen diena da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Libertad",
+  "termino_eu": "Askatasuna",
+  "definicion_eu": "Pertsona bakoitzari aurkezten zaizkion aukera guztien artean aukeratzeratzeko duen ahalmena.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Ordenamiento jurídico",
+  "termino_eu": "Antolamendu jurídicoa",
+  "definicion_eu": "Arau juridikoen multzoa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Juridikoa"
+ },
+ {
+  "termino": "Juicio",
+  "termino_eu": "Epaiketa",
+  "definicion_eu": "Epaitegi batean konpontzen den bi aldeen arteko gatazka da.\n\nEpaileak egoera aztertu eta erabakia hartzen duen prozesua da.",
+  "ejemplo_eu": "Epaiketan, epaileak bere errugabetasuna erabaki zuen.",
+  "relacionados_eu": "Abokatua, Epailea, Epaitegi, Legezkoa, Biktima, Salaketa"
+ },
+ {
+  "termino": "Procedimiento administrativo",
+  "termino_eu": "Administrazioko prozedura",
+  "definicion_eu": "Administrazio publikoak ekintza batzuk helburu jakin batean hasten dituenean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Administrazio publikoa"
+ },
+ {
+  "termino": "Recurso contencioso-administrativo",
+  "termino_eu": "Administrazioa rekiko auzi- errekurtsoa",
+  "definicion_eu": "Administrazio publikoaren erabaki baten aurka erabil daitekeen azken errekurtsoa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Administrazio publikoa, Helegitea"
+ },
+ {
+  "termino": "Silencio administrativo",
+  "termino_eu": "Administrazio isiltasuna",
+  "definicion_eu": "Administrazio publikoak gai bati erantzuten ez dionean. Isiltasun positiboa edo negatiboa izan daiteke.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Administrazio publikoa"
+ },
+ {
+  "termino": "Tratado bilateral",
+  "termino_eu": "Aldebiko ituna",
+  "definicion_eu": "Itun bat bi estatuen artean egiten denean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Ituna"
+ },
+ {
+  "termino": "Tratado multilateral",
+  "termino_eu": "Alde anitzeko ituna",
+  "definicion_eu": "Itun bat hiru estatu edo gehiagoren artean egiten denean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Ituna, Estatu"
+ },
+ {
+  "termino": "Vía administrativa",
+  "termino_eu": "Administrazio bidea",
+  "definicion_eu": "Gatazka batean aldeetako bat administrazio publikoa denean erabiltzen den prozesua.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Aldea, Administrazio publikoa, Prozesu administratiboa"
+ },
+ {
+  "termino": "Víctima",
+  "termino_eu": "Biktima",
+  "definicion_eu": "Delitu baten kaltea jasaten duen pertsona da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Delitua"
+ },
+ {
+  "termino": "Votación",
+  "termino_eu": "Bozketa",
+  "definicion_eu": "Erabakiak batera hartzeko metodoa da. Parlamentuan erabili ohi da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Parlamentua"
+ },
+ {
+  "termino": "Socio o socia",
+  "termino_eu": "Bazkidea",
+  "definicion_eu": "Enpresa bateko kidea da. Enpresaren legezko erantzukizunak bere gain hartzen ditu.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Sentencia estimatoria",
+  "termino_eu": "Baieste epaia",
+  "definicion_eu": "Epaileak demanda onartzen duenean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Epailea, Demanda"
+ },
+ {
+  "termino": "Revisión",
+  "termino_eu": "Berrikuspena",
+  "definicion_eu": "Gai juridiko bat berriz aztertzen denean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Juridikoa"
+ },
+ {
+  "termino": "Ratificación",
+  "termino_eu": "Berrespena",
+  "definicion_eu": "Estatu batek itun baten bidez behartzea onartzen duenean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Ituna, Betebeharra"
+ },
+ {
+  "termino": "Obligación",
+  "termino_eu": "Betebeharra",
+  "definicion_eu": "Pertsona bati zerbait egiteko eskatzen zaionean. Arau edo kontraturen batengatik izan daiteke.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Araua, Kontratua"
+ },
+ {
+  "termino": "Rescindible",
+  "termino_eu": "Deuseztagarria",
+  "definicion_eu": "Egintza batek balio izateari uzten dionean, prozesuko pertsona bati kalte egiten diolako.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Prozedura judiziala, Prozedura administraria"
+ },
+ {
+  "termino": "Delito",
+  "termino_eu": "Delitua",
+  "definicion_eu": "Pertsona batek arau bat hausten duenean. Zigor gogorra jaso dezake.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Araua"
+ },
+ {
+  "termino": "Rescisión",
+  "termino_eu": "Desegitea",
+  "definicion_eu": "Kontratu edo egintza juridiko bat indarrik gabe uzten denean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Kontratua, Juridikoa"
+ },
+ {
+  "termino": "Subvención",
+  "termino_eu": "Dirulaguntza",
+  "definicion_eu": "Administrazio publikoak pertsona edo entitate bati diruz laguntzen dionean.Dirua jarduera publiko baterako erabili behar da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Administrazio publikoa"
+ },
+ {
+  "termino": "Demanda",
+  "termino_eu": "Demanda",
+  "definicion_eu": "Interesdunetako batek prozesu judiziala hasten duen dokumentua da. Alderdi demandatzaileak eta demandatuak identifikatzea. Auziak gertatutako gertakariak, gertakariekin zerikusia duten arauak eta epaileari eskatzen diozunak jasotzen ditu.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Judiziala"
+ },
+ {
+  "termino": "Jefe de Estado",
+  "termino_eu": "Estatuburua",
+  "definicion_eu": "Estatu batean autoritate handiena duen pertsona da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Estatua"
+ },
+ {
+  "termino": "Juez",
+  "termino_eu": "Epailea",
+  "definicion_eu": "Epaileak, egoera bidezkoa eta legea betetzen duen aztertzen du, herritarren eskubideak bermatuz.",
+  "ejemplo_eu": "Epaileak bost urteko kartzela zigorra jarri dit.",
+  "relacionados_eu": "Judiziala"
+ },
+ {
+  "termino": "Juzgado",
+  "termino_eu": "Epaitegia",
+  "definicion_eu": "Epaiketa egiten den aretoa da.",
+  "ejemplo_eu": "Epaitegian zigorra ezartzen da, epaileak zigorra ematen duela esatearen berdina da.",
+  "relacionados_eu": "Epailea, Epaiketa"
+ },
+ {
+  "termino": "Parlamento europeo",
+  "termino_eu": "Europako Parlamentua",
+  "definicion_eu": "Europar Batasuneko zati bat da. Bertan erabakitzen dira legeak eta gai ekonomikoak.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Europar Batasuna, Legedia"
+ },
+ {
+  "termino": "Plazo",
+  "termino_eu": "Epea",
+  "definicion_eu": "Ekintza juridiko bat egiteko behar den denbora.",
+  "ejemplo_eu": "Epaileak bost eguneko epea eman dio akusatuari egozten dizkoioten proba berriak aurkezteko.",
+  "relacionados_eu": "Prozesu judiziala, Antolamendu juridikoa"
+ },
+ {
+  "termino": "Rango reglamentario",
+  "termino_eu": "Araudi- ahalmena",
+  "definicion_eu": "Administrazio publikoak arau mailako arauak sortzen dituenean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Administrazio publikoa"
+ },
+ {
+  "termino": "Rebeldía",
+  "termino_eu": "Errebeldia",
+  "definicion_eu": "Pertsona batek epe batean epaitegian agertu behar duenean eta ez denean agertzen.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Epea, Epaitegia"
+ },
+ {
+  "termino": "Reclamación",
+  "termino_eu": "Erreklamazio",
+  "definicion_eu": "Eskubide bat aitortzeko erakunde juridiko batera jotzen denean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Erakundea, Zuzenbidea"
+ },
+ {
+  "termino": "Reclamación económico-administrativa",
+  "termino_eu": "Erreklamazio ekonomiko- administratiboa",
+  "definicion_eu": "Pertsona batek Administrazio publikoari zergekin zerikusia duten ekintza batzuk berrikusteko esatzen dionean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Administrazio publikoa, Zerga"
+ },
+ {
+  "termino": "Reglamento",
+  "termino_eu": "Araudia",
+  "definicion_eu": "Kontzeptu orokorra: Pertsona talde baten zerbitzu edo jarduera bat arautzen duen arau mota da.\n\nZuzenbide internazionala: Estatu kideetan zuzenean aplikatzen den arau mota bat da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Araua"
+ },
+ {
+  "termino": "Resolución",
+  "termino_eu": "Ebazpena",
+  "definicion_eu": "Administrazio publikoak gai bati buruz erabakitzen duenean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Administrazio publikoa"
+ },
+ {
+  "termino": "Rey",
+  "termino_eu": "Erregea",
+  "definicion_eu": "Estatua eta bertako herritarrak ordezkatzen dituen pertsona.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Herritartasuna"
+ },
+ {
+  "termino": "Sentencia",
+  "termino_eu": "Epaia",
+  "definicion_eu": "Epaile batek gai bati buruz erabakitzen duenean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Epailea"
+ },
+ {
+  "termino": "Sentencia desestimatoria",
+  "termino_eu": "Ezesteko epaia",
+  "definicion_eu": "Epaileak demandatzaileak eskatzen zuena errefusatzen duenean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Epailea"
+ },
+ {
+  "termino": "Sentencia firme",
+  "termino_eu": "Epai irmoa",
+  "definicion_eu": "Epaia eman ondoren ezin denean errekurtsorik jarri.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Errekurtsoa, Helegitea, Epaia"
+ },
+ {
+  "termino": "Sentencia no firme",
+  "termino_eu": "Epai ez irmoa",
+  "definicion_eu": "Epaia eman ondoren errekurtsoa jar daitekenean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Errekurtsoa, Helegitea, Epaia"
+ },
+ {
+  "termino": "Solicitud administrativa",
+  "termino_eu": "Eskaera administratiboa",
+  "definicion_eu": "Pertsona batek eskaera bat administrazio publikora bidaltzen duenean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Administrazio publikoa"
+ },
+ {
+  "termino": "Subasta pública",
+  "termino_eu": "Enkante publikoa",
+  "definicion_eu": "Gauza bat hasierako preziorik gabe saltzen denean. Diru gehien ordaintzen duen erosleari saltzen zaio.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Suspensión",
+  "termino_eu": "Etenaldia",
+  "definicion_eu": "Prozesu bat denbora tarte baterako gelditzen denean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Prozesu judiziala, Prozesu administratiboa"
+ },
+ {
+  "termino": "Tratado de Funcionamiento de la Unión Europea (TFUE)",
+  "termino_eu": "Europar Batasuneko Funtzionamenduko Ituna",
+  "definicion_eu": "Europar Batasunaren funtzionamendua eta eskumenak ezartzen dituen ituna da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Europar Batasua, Ituna"
+ },
+ {
+  "termino": "Tratado de la Unión Europea",
+  "termino_eu": "Europar Batasuneko ituna",
+  "definicion_eu": "Estatu Kideen arteko Europako akordioa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Ituna, Estatu Kideak"
+ },
+ {
+  "termino": "Unión Europea",
+  "termino_eu": "Europar Batasuna",
+  "definicion_eu": "27 Estatu Kideek osatutako elkarte politiko eta ekonomikoa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Estatu Kideak"
+ },
+ {
+  "termino": "Uso público",
+  "termino_eu": "Erabilera publikoa",
+  "definicion_eu": "Pertsonek ondasun publikoak erabiltzen dituztenean.",
+  "ejemplo_eu": "Hondartzak erabilera publikoko espazioak dira.",
+  "relacionados_eu": "Ondasun publikoa"
+ },
+ {
+  "termino": "Prisión",
+  "termino_eu": "Espetxea",
+  "definicion_eu": "Kartzela da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Kondena, Delitua"
+ },
+ {
+  "termino": "Estados Miembros",
+  "termino_eu": "Estatu Kidea",
+  "definicion_eu": "Europar Batasunaren parte diren herrialdeak dira.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Europar Batasuna"
+ },
+ {
+  "termino": "Estado",
+  "termino_eu": "Estatua",
+  "definicion_eu": "Herrialde bat da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Mala fe",
+  "termino_eu": "Fede txarra",
+  "definicion_eu": "Pertsona batek asmo txarrez jarduteko asmoa duenean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Prueba",
+  "termino_eu": "Froga",
+  "definicion_eu": "Delitu edo arau-hauste bat egin den ebidentzia da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Delitua, Arau-haustea"
+ },
+ {
+  "termino": "Recomendación",
+  "termino_eu": "Gomendioa",
+  "definicion_eu": "Europar Batasuneko aldeek iritzia ematea ahalbidetzen duen arau mota bat da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Araua, Europako Batasuna"
+ },
+ {
+  "termino": "Recurso",
+  "termino_eu": "Helegitea",
+  "definicion_eu": "Erabaki judizial edo administratibo bati erantzuteko modua da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Prozedura judiziala, Prozedura administraria"
+ },
+ {
+  "termino": "Ciudadanía",
+  "termino_eu": "Herritartasuna",
+  "definicion_eu": "Estatu batean bizi diren pertsonen multzoa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Estatua"
+ },
+ {
+  "termino": "Juzgado de Instrucción",
+  "termino_eu": "Instrukzio Epaitegia",
+  "definicion_eu": "Delitu baten biktimak salaketan esan dituen frogak jasotzen diren epaitegia.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Biktima, Epaitegia, Epailea, Epaiketa"
+ },
+ {
+  "termino": "Multa",
+  "termino_eu": "Isuna",
+  "definicion_eu": "Delitu edo arau-hauste bat egiteagatik pertsona bat ekonomikoki zigortzen denean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Delitua, Arau-haustea"
+ },
+ {
+  "termino": "Tratado",
+  "termino_eu": "Ituna",
+  "definicion_eu": "Estatuen arteko akordio politiko, ekonomiko eta soziala ezartzen den dokumentua.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Estatua"
+ },
+ {
+  "termino": "Justicia",
+  "termino_eu": "Justizia",
+  "definicion_eu": "Arau juridiko guztiak oinarritzen diren balioetako bat.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Zuzenbidea"
+ },
+ {
+  "termino": "Notificación",
+  "termino_eu": "Jakinarazpena",
+  "definicion_eu": "Epaiketa batean interesdunei egoera jakinarazten denean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Epaiketa"
+ },
+ {
+  "termino": "Medida cautelar",
+  "termino_eu": "Kautelazko neurria",
+  "definicion_eu": "Epaile batek epaia eman aurretik beste delitu edo arau- hausterik ez dagoela ziurtztzeko hartzen duen erabakia.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Epaia, Epailea, Delitua, Arau-haustea"
+ },
+ {
+  "termino": "Querella",
+  "termino_eu": "Kereila",
+  "definicion_eu": "Delitu batengatik prozedura judizial bati ekiteko modu bat da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Delitua, Prozesu judiziala"
+ },
+ {
+  "termino": "Congreso",
+  "termino_eu": "Kongresua",
+  "definicion_eu": "Espainiako herria ordezkatzen duen organo konstituzionala da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Contrato",
+  "termino_eu": "Kontratua",
+  "definicion_eu": "Pertsonen arteko legezko akordioa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Legalidad",
+  "termino_eu": "Legezkotasuna",
+  "definicion_eu": "Arauak jurisdizioaren Arabera aplikatu behar direla dioen antolamendu juridikoaren balioetako bat da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Antolamendu juridikoa, Jurisdikzioa"
+ },
+ {
+  "termino": "Legislación",
+  "termino_eu": "Legedia",
+  "definicion_eu": "Antolamendu juridikoa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Antolamendu juridikoa"
+ },
+ {
+  "termino": "Legitimación",
+  "termino_eu": "Legitimoa",
+  "definicion_eu": "Prozesu batean parte hartzeko gaitasuna da. Legitimazioa aktiboa edo pasiboa izan daiteke. Legitimazio aktiboa izango da prozesua abiarazteko prozesua baduzu. Legitimazio pasiboa izango da epaitegira joateko jakinarazten badizute.",
+  "ejemplo_eu": "Bere lurrak erreklamatzeko legitimatua zegoen.",
+  "relacionados_eu": "Erreklamazioa, Prozesu judiziala"
+ },
+ {
+  "termino": "Ley",
+  "termino_eu": "Legea",
+  "definicion_eu": "Gizarte-harremanak arautzen dituen Araua da. Araudi- arauek baino indar handiagoa du.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Lege arrunta, Lege organikoa"
+ },
+ {
+  "termino": "Ley ordinaria",
+  "termino_eu": "Lege arrunta",
+  "definicion_eu": "Legebiltzarrean erabakitzen den lege orokorra.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Legea, Parlamentua"
+ },
+ {
+  "termino": "Ley orgánica",
+  "termino_eu": "Lege organikoa",
+  "definicion_eu": "Zenbait gai bakarrik legeratzeko balio duen legea. Legebiltzarrean erabakitzen da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Legea, Parlamentua"
+ },
+ {
+  "termino": "Liquidación",
+  "termino_eu": "Likidazioa",
+  "definicion_eu": "Administrazio publikoari diru-kopuru bat ordaindu behar zaionean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Administrazio publikoa"
+ },
+ {
+  "termino": "Liquidez",
+  "termino_eu": "Likidezia",
+  "definicion_eu": "Enpresa batek bere aktiboa diru bihur dezakeenean, beti ere balio galdu gabe.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Aktiboa"
+ },
+ {
+  "termino": "Parlamento",
+  "termino_eu": "Legebiltzarra",
+  "definicion_eu": "Legeak egin, aldatu eta onartzen dituen erakunde politikoa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Kongresua, Senatua, Legea"
+ },
+ {
+  "termino": "Proposición de Ley",
+  "termino_eu": "Lege proposamena",
+  "definicion_eu": "Legebiltzarrak lege bat idazteko egindako proposamena da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Legebiltzarra, Legea"
+ },
+ {
+  "termino": "Proyecto de Ley",
+  "termino_eu": "Lege proiektua",
+  "definicion_eu": "Gobernuak Parlamenturako lege bat idazteko egindako proposamena da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Legebiltzarra, Legea"
+ },
+ {
+  "termino": "Reserva de Ley",
+  "termino_eu": "Lege-erreseba",
+  "definicion_eu": "Arau berrien bidez arautu daitezkeen gizarte-gaien multzoa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Araua"
+ },
+ {
+  "termino": "Sobreseimiento",
+  "termino_eu": "Largestea",
+  "definicion_eu": "Prozesu bat amaitzen denean froga nahikorik ez dagoelako.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Prozesu judiziala, Froga"
+ },
+ {
+  "termino": "Trabajador / Trabajadora",
+  "termino_eu": "Langilea",
+  "definicion_eu": "Pertsona batek diru kopuru bat jasotzen duenean eskatzen zaizkion betebeharrak egitearen truke.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Betebeharra"
+ },
+ {
+  "termino": "Testigo",
+  "termino_eu": "Lekukoa",
+  "definicion_eu": "Delitua, ez-zilegia edo arau-haustea gertatu zenean ikusi zuena deklaratzen duen pertsona.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Delitua, Arau-haustea"
+ },
+ {
+  "termino": "Ministerio Fiscal",
+  "termino_eu": "Ministerio Fiskala",
+  "definicion_eu": "Herritarren eskubideak eta interes orokorra babesteaz arduratzen den instituzio judiziala da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Minuta",
+  "termino_eu": "Minuta",
+  "definicion_eu": "Abokatuek bezeroei ematen dieten dokumentua da. Bertan, abokatuaren lanagatik ordaindu behar duen prezioa agertzen da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Abokatua"
+ },
+ {
+  "termino": "Moción",
+  "termino_eu": "Mozioa",
+  "definicion_eu": "Kongresuan edo Senatuan pertsona-talde batek aurkeztutako proposamena da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Kongresua, Senatua"
+ },
+ {
+  "termino": "Negocio jurídico",
+  "termino_eu": "Negozio juridikoa",
+  "definicion_eu": "Kontratu bat da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Kontratua"
+ },
+ {
+  "termino": "Órgano judicial",
+  "termino_eu": "Organo judiziala",
+  "definicion_eu": "Gizartean justiziaren aplikazioa arautzen duen edozein erakunde da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Justizia"
+ },
+ {
+  "termino": "Representante",
+  "termino_eu": "Ordezkaria",
+  "definicion_eu": "Pertsona batek beste baten alde modu juridikoan jarduten duenean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Juridikoa"
+ },
+ {
+  "termino": "Sucesión",
+  "termino_eu": "Ondorengotza",
+  "definicion_eu": "Pertsona bat hiltzean betebeharrak eskualdatzen direnean.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Betebeharra"
+ },
+ {
+  "termino": "Hacienda pública",
+  "termino_eu": "Ogasun Publikoa",
+  "definicion_eu": "Zerga zuzenbideaz arduratzen den administrazio publikoa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Bienes y servicios",
+  "termino_eu": "Ondasunak eta zerbitzuak",
+  "definicion_eu": "Jendeak bere beharrak asetzeko egiten duen ahaleginaren emaitza da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Prescripción",
+  "termino_eu": "Preskripzioa",
+  "definicion_eu": "Prozesu batek noiz arte balio duen adierazten duen data da. Data hori aldatu egin daiteke prozesuan zerbait egiten badugu.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Epea, Prozesu judiziala, Administrazioko prozedura"
+ },
+ {
+  "termino": "Policía",
+  "termino_eu": "Polizia",
+  "definicion_eu": "Espainiar estatu osoko Indar eta Segurtasun Kidegoa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Premoriencia",
+  "termino_eu": "Premorientzia",
+  "definicion_eu": "Pertsona bat bestea baino lehenago hiltzen denan. Gurasoen eta seme-alaben artean gertatzen denean erabili ohi da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Procurador / Procuradora",
+  "termino_eu": "Prokuradorea",
+  "definicion_eu": "Alderdi bat epaiketa batean ordezkatzen duen pertsona da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Epaiketa"
+ },
+ {
+  "termino": "Senado",
+  "termino_eu": "Senatua",
+  "definicion_eu": "Parlamentuko alderdietako bat da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Parlamentua"
+ },
+ {
+  "termino": "Senador",
+  "termino_eu": "Senataria",
+  "definicion_eu": "Senatuko kide izateko hautatu duten pertsona da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Senatua"
+ },
+ {
+  "termino": "Tentativa",
+  "termino_eu": "Saialdia",
+  "definicion_eu": "Delitu bat ez denean erabat gertatu.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Delitua"
+ },
+ {
+  "termino": "Tasas",
+  "termino_eu": "Tasak",
+  "definicion_eu": "Pertsona batek jabari pribatuko zerbitzu publiko bat erabiltzeko ordaindu behar duen tributu mota bat.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Tributua"
+ },
+ {
+  "termino": "Tributo",
+  "termino_eu": "Tributu",
+  "definicion_eu": "Estatuari egindako ordainketa ezberdinen multzoa da. Adibidez, zergak edo tasak.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Zerga, Tasak"
+ },
+ {
+  "termino": "Tutela",
+  "termino_eu": "Tutoretza",
+  "definicion_eu": "Pertsona batek bestea babesteko duen ahalmena da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": ""
+ },
+ {
+  "termino": "Testamento",
+  "termino_eu": "Testamentua",
+  "definicion_eu": "Pertsona bat hiltzen denean bere ondasunak nola banatuko diren ezartzen duen dokumentua da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Ondasunak eta zerbitzuak"
+ },
+ {
+  "termino": "Impuesto",
+  "termino_eu": "Zerga",
+  "definicion_eu": "Ogasun Publikoari dirua ordaintzen diozunean ondasun publikoak izateko.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Ogasun Publikoa, Ondasun publikoa"
+ },
+ {
+  "termino": "Derecho",
+  "termino_eu": "Zuzenbidea",
+  "definicion_eu": "Pertsonen ekintzak arautzen dituen arau multzoa da.",
+  "ejemplo_eu": "",
+  "relacionados_eu": "Araua"
+ }
+]

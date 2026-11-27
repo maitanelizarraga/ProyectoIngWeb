@@ -2,39 +2,69 @@
 {% block title %}{{ termino.termino }}{% endblock %}
 {% block content %}
 
-    <h1>{{ termino.termino }}</h1>
+    <h1 id="pagina-detalle">
+        {% if termino.termino_eu %}
+            <span class="texto-es">{{ termino.termino }}</span>
+            <span class="texto-eu" lang="eu">{{ termino.termino_eu }}</span>
+        {% else %}
+            {{ termino.termino }}
+        {% endif %}
+    </h1>
 
     {% if termino.categoria %}
-        <p>Categoría: {{ termino.categoria }}</p>
+        <p class="texto-es">Categoría: {{ termino.categoria }}</p>
     {% endif %}
 
-    {% if termino.subramas.all %}
-        <h2>Ramas del Derecho</h2>
-        <ul>
-            {% for s in termino.subramas.all %}
-                <li>{{ s.nombre }}</li>
-            {% endfor %}
-        </ul>
+    {% if termino.definicion %}
+        <h2 class="texto-es">¿Qué significa?</h2>
+        <div class="texto-es">{{ termino.definicion|linebreaks }}</div>
     {% endif %}
-
-    <h2>¿Qué significa?</h2>
-    {{ termino.definicion|linebreaks }} <!-- Sacado de la IA para que por cada definición se salte de linea-->
-
-    {% if termino.fuente %}
-        <h2>Fuente</h2>
-        <p>{{ termino.fuente }}</p>
+    {% if termino.definicion_eu %}
+        <h2 class="texto-eu" lang="eu">Definizioa</h2>
+        <div class="texto-eu" lang="eu">{{ termino.definicion_eu|linebreaks }}</div>
     {% endif %}
 
     {% if termino.ejemplo %}
-        <h2>Ejemplo</h2>
-        {{ termino.ejemplo|linebreaks }}  <!-- Sacado de la IA para que por cada ejemplo se salte de linea-->
+        <h2 class="texto-es">Ejemplo</h2>
+        <div class="texto-es">{{ termino.ejemplo|linebreaks }}</div>
+    {% endif %}
+    {% if termino.ejemplo_eu %}
+        <h2 class="texto-eu" lang="eu">Adibidea</h2>
+        <div class="texto-eu" lang="eu">{{ termino.ejemplo_eu|linebreaks }}</div>
     {% endif %}
 
     {% if termino.relacionados %}
-        <h2>Términos relacionados</h2>
-        <p>{{ termino.relacionados }}</p>
+        <h2 class="texto-es">Términos relacionados</h2>
+        <p class="texto-es">{{ termino.relacionados }}</p>
+    {% endif %}
+    {% if termino.relacionados_eu %}
+        <h2 class="texto-eu" lang="eu">Erlazionatutako kontzeptuak</h2>
+        <p class="texto-eu" lang="eu">{{ termino.relacionados_eu }}</p>
     {% endif %}
 
-    <p><a href="{% url 'diccionario' %}">Volver al diccionario</a></p>
+    {% if termino.subramas.all %}
+        <div class="texto-es">
+            <h2>Ramas del Derecho</h2>
+            <ul>
+                {% for s in termino.subramas.all %}
+                    <li>{{ s.nombre }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
+    {% if termino.fuente %}
+        <div class="texto-es">
+            <h2>Fuente</h2>
+            <p>{{ termino.fuente }}</p>
+        </div>
+    {% endif %}
+
+    <p>
+        <a href="{% url 'diccionario' %}">
+            <span class="texto-es">Volver al diccionario</span>
+            <span class="texto-eu" lang="eu">Itzuli hiztegira</span>
+        </a>
+    </p>
 
 {% endblock %}

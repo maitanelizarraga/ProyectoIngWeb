@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}Derecho a Entender{% endblock %}</title>
-    
+
     <!-- Fuente de Lectura Fácil -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;display=swap">
-    
+
     <!-- CSS Principal -->
     <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
 
@@ -26,8 +26,8 @@
             <p class="barra-acc__texto">Textos jurídicos en Lectura Fácil</p>
             <div class="barra-acc__grupo">
                 <div class="idioma" role="group" aria-label="Idioma">
-                    <a href="/" aria-current="true">Castellano</a>
-                    <a href="#" lang="eu" hreflang="eu">Euskara</a>
+                    <button type="button" id="btn-castellano" class="activo">Castellano</button>
+                    <button type="button" id="btn-euskera" lang="eu">Euskara</button>
                 </div>
             </div>
         </div>
@@ -52,7 +52,6 @@
                     <li><a href="/ramasDerecho/" {% if request.path == '/ramasDerecho/' %}aria-current="page"{% endif %}>Ramas del Derecho</a></li>
                     <li><a href="/galeria/" {% if request.path == '/galeria/' %}aria-current="page"{% endif %}>Galería</a></li>
                     <li><a href="/nuevas/" {% if request.path == '/nuevas/' %}aria-current="page"{% endif %}>Palabras Nuevas</a></li>
-
                 </ul>
             </nav>
         </div>
@@ -89,5 +88,6 @@
         </div>
     </footer>
 
+    <script src="{% static 'js/idioma.js' %}"></script>
 </body>
 </html>

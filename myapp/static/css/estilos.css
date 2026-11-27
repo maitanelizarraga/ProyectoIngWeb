@@ -97,25 +97,28 @@ img { max-width: 100%; height: auto; }
 
 .idioma {
   display: flex;
-  border: 1px solid #FFFFFF;
+  border: 1px solid white;
   border-radius: 0.5rem;
   overflow: hidden;
   align-items: center;
   gap: 8px;
 }
 
-.idioma a {
+.idioma button {
   display: flex;
   align-items: center;
   min-height: 2.75rem;
   padding: 0 0.85rem;
-  color: #FFFFFF;
-  text-decoration: none;
+  color: white;
+  background: none;
+  border: 0;
+  font: inherit;
+  cursor: pointer;
   border-radius: 4px;
 }
 
-.idioma a[aria-current="true"] {
-  background: #FFFFFF;
+.idioma button.activo {
+  background: white;
   color: #143D24;
   font-weight: 700;
 }
@@ -123,7 +126,7 @@ img { max-width: 100%; height: auto; }
 /* Cabecera */
 .cabecera {
   border-bottom: 1px solid #D5DCE6;
-  background: #FFFFFF;
+  background: white;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -613,6 +616,17 @@ main button:hover {
   background-color: #145A2C;
 }
 
+.texto-eu {
+    display: none;
+}
+
+body.euskera .texto-eu {
+    display: block;
+}
+
+body.euskera .texto-es {
+    display: none;
+}
 
 
 

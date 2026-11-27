@@ -118,11 +118,19 @@ class SubramaConcepto(models.Model):
 class TerminoGeneral(models.Model):
     """Glosario general e independiente de las ramas."""
 
+    #castellano
     termino     = models.CharField(max_length=150, unique=True)
-    definicion  = models.TextField()
+    definicion  = models.TextField(blank=True)
     fuente      = models.CharField(max_length=200, blank=True)
     ejemplo       = models.TextField(blank=True)
     relacionados  = models.CharField(max_length=300, blank=True)
+
+    #euskera
+    termino_eu         = models.CharField(max_length=150, blank=True)
+    definicion_eu      = models.TextField(blank=True)
+    ejemplo_eu         = models.TextField(blank=True)
+    relacionados_eu    = models.CharField(max_length=300, blank=True)
+
     categoria   = models.CharField(max_length=80, blank=True)
     subramas    = models.ManyToManyField(Subrama, blank=True, related_name='terminos')
     created_at  = models.DateTimeField(auto_now_add=True)

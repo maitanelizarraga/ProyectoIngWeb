@@ -205,3 +205,17 @@
 .barra-diccionario .btn-add-palabra:hover {
     background-color: #145A2C;
 }
+
+
+
+li.solo-eu {
+    display: none;
+}
+
+body.euskera li.solo-eu {
+    display: list-item;
+}
+
+body.euskera li.solo-es {
+    display: none;
+}
