@@ -2,69 +2,73 @@
 {% block title %}{{ termino.termino }}{% endblock %}
 {% block content %}
 
-    <h1 id="pagina-detalle">
-        {% if termino.termino_eu %}
-            <span class="texto-es">{{ termino.termino }}</span>
-            <span class="texto-eu" lang="eu">{{ termino.termino_eu }}</span>
-        {% else %}
-            {{ termino.termino }}
+    <section class = "contenedor">
+
+        <h1 id="pagina-detalle">
+            {% if termino.termino_eu %}
+                <span class="texto-es">{{ termino.termino }}</span>
+                <span class="texto-eu" lang="eu">{{ termino.termino_eu }}</span>
+            {% else %}
+                {{ termino.termino }}
+            {% endif %}
+        </h1>
+
+        {% if termino.categoria %}
+            <p class="texto-es">Categoría: {{ termino.categoria }}</p>
         {% endif %}
-    </h1>
 
-    {% if termino.categoria %}
-        <p class="texto-es">Categoría: {{ termino.categoria }}</p>
-    {% endif %}
+        {% if termino.definicion %}
+            <h2 class="texto-es">¿Qué significa?</h2>
+            <div class="texto-es">{{ termino.definicion|linebreaks }}</div>
+        {% endif %}
+        {% if termino.definicion_eu %}
+            <h2 class="texto-eu" lang="eu">Definizioa</h2>
+            <div class="texto-eu" lang="eu">{{ termino.definicion_eu|linebreaks }}</div>
+        {% endif %}
 
-    {% if termino.definicion %}
-        <h2 class="texto-es">¿Qué significa?</h2>
-        <div class="texto-es">{{ termino.definicion|linebreaks }}</div>
-    {% endif %}
-    {% if termino.definicion_eu %}
-        <h2 class="texto-eu" lang="eu">Definizioa</h2>
-        <div class="texto-eu" lang="eu">{{ termino.definicion_eu|linebreaks }}</div>
-    {% endif %}
+        {% if termino.ejemplo %}
+            <h2 class="texto-es">Ejemplo</h2>
+            <div class="texto-es">{{ termino.ejemplo|linebreaks }}</div>
+        {% endif %}
+        {% if termino.ejemplo_eu %}
+            <h2 class="texto-eu" lang="eu">Adibidea</h2>
+            <div class="texto-eu" lang="eu">{{ termino.ejemplo_eu|linebreaks }}</div>
+        {% endif %}
 
-    {% if termino.ejemplo %}
-        <h2 class="texto-es">Ejemplo</h2>
-        <div class="texto-es">{{ termino.ejemplo|linebreaks }}</div>
-    {% endif %}
-    {% if termino.ejemplo_eu %}
-        <h2 class="texto-eu" lang="eu">Adibidea</h2>
-        <div class="texto-eu" lang="eu">{{ termino.ejemplo_eu|linebreaks }}</div>
-    {% endif %}
+        {% if termino.relacionados %}
+            <h2 class="texto-es">Términos relacionados</h2>
+            <p class="texto-es">{{ termino.relacionados }}</p>
+        {% endif %}
+        {% if termino.relacionados_eu %}
+            <h2 class="texto-eu" lang="eu">Erlazionatutako kontzeptuak</h2>
+            <p class="texto-eu" lang="eu">{{ termino.relacionados_eu }}</p>
+        {% endif %}
 
-    {% if termino.relacionados %}
-        <h2 class="texto-es">Términos relacionados</h2>
-        <p class="texto-es">{{ termino.relacionados }}</p>
-    {% endif %}
-    {% if termino.relacionados_eu %}
-        <h2 class="texto-eu" lang="eu">Erlazionatutako kontzeptuak</h2>
-        <p class="texto-eu" lang="eu">{{ termino.relacionados_eu }}</p>
-    {% endif %}
+        {% if termino.subramas.all %}
+            <div class="texto-es">
+                <h2>Ramas del Derecho</h2>
+                <ul>
+                    {% for s in termino.subramas.all %}
+                        <li>{{ s.nombre }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
 
-    {% if termino.subramas.all %}
-        <div class="texto-es">
-            <h2>Ramas del Derecho</h2>
-            <ul>
-                {% for s in termino.subramas.all %}
-                    <li>{{ s.nombre }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-    {% endif %}
+        {% if termino.fuente %}
+            <div class="texto-es">
+                <h2>Fuente</h2>
+                <p>{{ termino.fuente }}</p>
+            </div>
+        {% endif %}
 
-    {% if termino.fuente %}
-        <div class="texto-es">
-            <h2>Fuente</h2>
-            <p>{{ termino.fuente }}</p>
-        </div>
-    {% endif %}
+        <p>
+            <a href="{% url 'diccionario' %}">
+                <span class="texto-es">Volver al diccionario</span>
+                <span class="texto-eu" lang="eu">Itzuli hiztegira</span>
+            </a>
+        </p>
 
-    <p>
-        <a href="{% url 'diccionario' %}">
-            <span class="texto-es">Volver al diccionario</span>
-            <span class="texto-eu" lang="eu">Itzuli hiztegira</span>
-        </a>
-    </p>
+    </section>
 
 {% endblock %}
